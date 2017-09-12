@@ -667,3 +667,13 @@ http://www.privacy-search.*
 http://fulltab.*
 *.blpmovies.*
 http://screenaddict.*
+*.cpm20.*
+https://chaturbate.com/*
+http://holidaybonus.*
+http://lovetoy.xyz/
+http://notice.sys-alrt.*
+http://www.ntrcksecurew.*
+*.bid
+*v2profit*
+http://flirt-and-sex.com
+*.tribalfusion.*
