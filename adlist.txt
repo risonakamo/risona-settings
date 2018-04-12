@@ -1,3 +1,5 @@
+bindingofisaacrebirth.gamepedia.com###siderail
+https://www.gamepedia.com/PRO?utm_source=wiki&utm_medium=promorail
 *.truthfinder.*
 *.friendlyduck.*
 https://systemtechinfo.com/*
@@ -751,3 +753,7 @@ dictionary.com##.hidden-xs
 dictionary.com##.others-are-reading-module
 dictionary.com###fly-out
 dictionary.com##.survey
+*.myappzcenter.*
+*nextlnk*
+*.hibids*
+*.trafficsan.*
