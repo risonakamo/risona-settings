@@ -679,7 +679,6 @@ http://www.ntrcksecurew.*
 http://flirt-and-sex.com
 *.tribalfusion.*
 *fandommetrics*
-*krxd*
 wikia-beacon*
 statsevent*
 kiosked*
@@ -725,7 +724,6 @@ free3dadultgames.*
 @@auth.services.zam.com
 *.themovie-quest.*
 *streamit*
-https://ntvassets-a.akamaihd.net/
 *.zergnet.*
 gamepedia.com###zergnetContainer
 *pussysaga.*
@@ -757,3 +755,8 @@ dictionary.com##.survey
 *nextlnk*
 *.hibids*
 *.trafficsan.*
+*tribution.*
+*.videodownloadconverter.*
+*.traffic-media.*
+*96n5r5va.*
+*/ad/EN/*
