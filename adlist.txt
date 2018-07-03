@@ -760,3 +760,15 @@ dictionary.com##.survey
 *.traffic-media.*
 *96n5r5va.*
 */ad/EN/*
+http://c-5uwzmx78pmca09x24quo3x2ehmzovmbx2ekwu.g00.*
+http://c-5uwzmx78pmca09x24a8x2e0ulvx2evmb.g00.*
+http://c-5uwzmx78pmca09x24bx78kx2eowwotmagvlqkibqwvx2ekwu.g00.*
+http://c-5uwzmx78pmca09x24iifx2eiuihwv-ilagabmux2ekwu.g00.*
+http://c-5uwzmx78pmca09x24x78qvox2ekpizbjmibx2evmb.g00.*
+http://c-5uwzmx78pmca09x24quo0x2ehmzovmbx2ekwu.g00.*
+http://c-5uwzmx78pmca09x24quo9x2ehmzovmbx2ekwu.g00.*
+ign.com##.atw-container
+https://c-7npsfqifvt34x24wdeox2ebeoytx2edpn.g00.*
+*.cryptoverto.*
+contextual.media.net
+skl-874.*
