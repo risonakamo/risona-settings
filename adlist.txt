@@ -472,7 +472,7 @@ https://affiliates.hide.me/accounts/default1/banners/*
 *.tradeadexchange.*
 *hot*rewards.*
 *.redirectvoluum.*
-*track.*.*
+*track.*.*~blizztrack.com
 @@umbc.yamm-track.appspot.com
 *.brightonclick.*
 http://xb*.*
@@ -772,3 +772,4 @@ https://c-7npsfqifvt34x24wdeox2ebeoytx2edpn.g00.*
 *.cryptoverto.*
 contextual.media.net
 skl-874.*
+*.get-express-vpn.com/*
