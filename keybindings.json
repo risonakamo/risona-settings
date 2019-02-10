@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+shift+r","command": "workbench.action.files.revert" },
+    { "key": "ctrl+x s","command": "workbench.action.files.saveAll" }, //emacs save all
+    { "key": "shift+alt+5","command": "editor.action.startFindReplaceAction" },
+    { "key": "ctrl+w","command": "editor.action.clipboardCutAction"}, //emacs cut
+    { "key": "ctrl+x k","command": "workbench.action.closeActiveEditor" }, //emacs kill
+    { "key": "ctrl+x ctrl+c","command": "workbench.action.closeFolder" },
+    {"key":"ctrl+x ctrl+f","command":"extension.advancedNewFile"}, //emacs new file
+    {"key":"ctrl+shift+backspace","command":"editor.action.deleteLines"},
+    {"key":"ctrl+x ctrl+b","command":"workbench.action.toggleActivityBarVisibility"},
+    {"key":"ctrl+x o","command":"workbench.action.files.openFolder"},
+    {"key":"ctrl+x 0","command":"workbench.action.closeEditorsInGroup"}, //emacs kill window (editor)
+    {"key":"ctrl+x ctrl+0","command":"workbench.action.closeAllEditors"},
+
+    {"key":"ctrl+e","command":"cursorEnd"}, //emacs end
+    {"key":"ctrl+a","command":"cursorHome"}, //emacs home
+    { "key": "ctrl+shift+a","command": "cursorHomeSelect","when": "editorTextFocus" },
+    { "key": "ctrl+shift+e","command": "cursorEndSelect","when": "editorTextFocus" },
+    { "key": "ctrl+x h","command": "editor.action.selectAll" }, //emacs select all
+
+    {"key":"ctrl+x m","command":"workbench.action.editor.changeLanguageMode"},
+    {"key":"ctrl+x l","command":"workbench.action.gotoLine"},
+
+    //terminal override because ctrl+~ doesnt work on jp keyboard
+    { "key": "ctrl+shift+alt+oem_3","command": "workbench.action.terminal.new" },
+    { "key": "ctrl+shift+oem_3","command": "workbench.action.terminal.toggleTerminal" },
+
+    { "key": "ctrl+l","command": "workbench.action.showAllEditors"},
+    {"key":"ctrl+shift+w","command":""},
+
+    //terminals page key navs
+    {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},
+    {"key":"ctrl+pageup","command":"workbench.action.terminal.focusPrevious","when":"terminalFocus"}
+]
