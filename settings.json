@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
     "css.lint.emptyRules": "ignore",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -10,7 +10,6 @@
     "python.linting.enabledWithoutWorkspace": false,
     "window.menuBarVisibility": "toggle",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
@@ -130,10 +129,42 @@
         "semanticMerging": false,
         "shorthandCompacting": true
     },
-
-    "editor.find.seedSearchStringFromSelection": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
-    "editor.parameterHints": false,
+    "editor.parameterHints.enabled": false,
     "less.lint.emptyRules": "ignore",
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "material-icon-theme.hidesExplorerArrows": false,
+    "cmake.configureOnOpen": false,
+
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "bracket-pair-colorizer-2.colors":[
+        "#d4d4d4",
+        // "#d4d4d4",
+        "Gold",
+        "Orchid",
+        "LightSkyBlue",
+        "CHOCOLATE",
+        "DEEPPINK",
+        "MEDIUMAQUAMARINE",
+        "ORANGE",
+        "KHAKI",
+        "DARKORCHID",
+        "DODGERBLUE",
+        "SANDYBROWN",
+        "LIGHTPINK",
+        "LIGHTGREEN",
+        "CORAL"
+    ],
+    "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
+
+    "spellright.notificationClass":"error",
+    "spellright.documentTypes": [],
+    "search.useIgnoreFiles": false,
+    "editor.autoClosingQuotes": "never",
+    "workbench.activityBar.visible": false,
+    "git-graph.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.showStatusBarItem": false,
+    "editor.find.seedSearchStringFromSelection": false,
+    "files.autoSave": "off"
 }

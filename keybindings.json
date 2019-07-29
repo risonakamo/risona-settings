@@ -1,5 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    // emacs controls and main controls
     { "key": "ctrl+shift+r","command": "workbench.action.files.revert" },
     { "key": "ctrl+x s","command": "workbench.action.files.saveAll" }, //emacs save all
     { "key": "shift+alt+5","command": "editor.action.startFindReplaceAction" },
@@ -31,5 +32,26 @@
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},
-    {"key":"ctrl+pageup","command":"workbench.action.terminal.focusPrevious","when":"terminalFocus"}
+    {"key":"ctrl+pageup","command":"workbench.action.terminal.focusPrevious","when":"terminalFocus"},
+
+    {"key":"ctrl+c","command": "-workbench.action.terminal.copySelection","when": "terminalFocus && terminalTextSelected" },
+
+    // disabling python shift enter line execution
+    {
+        "key": "shift+enter",
+        "command": "",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
+    },
+
+    {
+        "key": "shift+enter",
+        "command": "",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
+    },
+
+    {
+        "key": "shift+enter",
+        "command": "",
+        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
+    }
 ]
