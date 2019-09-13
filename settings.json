@@ -165,7 +165,7 @@
         "#93a957",
         "#d61431",
         "#a9895f",
-        "#5b5383",
+        "#5e47d0",
         "#f9e242",
         "#a5d228",
         "#e5798b",
@@ -197,5 +197,7 @@
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
     "editor.find.seedSearchStringFromSelection": false,
-    "files.autoSave": "off"
+    "files.autoSave": "off",
+    "winopacity.opacity": 243,
+    "workbench.editor.closeOnFileDelete": true
 }
