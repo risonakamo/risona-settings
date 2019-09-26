@@ -9,7 +9,6 @@
     "editor.fontSize": 12,
     "python.linting.enabledWithoutWorkspace": false,
     "window.menuBarVisibility": "toggle",
-    "workbench.statusBar.visible": true,
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
@@ -20,7 +19,6 @@
         "comments": true,
         "strings": false
     },
-    "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "line",
     "update.channel": "none",
     "extensions.autoUpdate": false,
@@ -198,6 +196,8 @@
     "git-graph.showStatusBarItem": false,
     "editor.find.seedSearchStringFromSelection": false,
     "files.autoSave": "off",
+    "workbench.editor.closeOnFileDelete": true,
     "winopacity.opacity": 243,
-    "workbench.editor.closeOnFileDelete": true
+    "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false
 }
