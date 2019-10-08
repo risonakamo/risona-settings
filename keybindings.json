@@ -27,39 +27,24 @@
     { "key": "ctrl+shift+alt+oem_3","command": "workbench.action.terminal.new" },
     { "key": "ctrl+shift+oem_3","command": "workbench.action.terminal.toggleTerminal" },
 
+    //other controls
     { "key": "ctrl+l","command": "workbench.action.showAllEditors"},
     {"key":"ctrl+shift+w","command":""},
+    { "key": "ctrl+alt+\\","command": "editor.action.jumpToBracket","when": "editorTextFocus" },
+    {"key": "ctrl+shift+\\","command": "workbench.action.splitEditorOrthogonal"},
+    {"key": "ctrl+k ctrl+\\","command": "-workbench.action.splitEditorOrthogonal"},
+
+    //panel movement
+    { "key": "ctrl+alt+down",           "command": "workbench.action.moveActiveEditorGroupDown" },
+    { "key": "ctrl+alt+up",             "command": "workbench.action.moveActiveEditorGroupUp" },
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},
     {"key":"ctrl+pageup","command":"workbench.action.terminal.focusPrevious","when":"terminalFocus"},
-
     {"key":"ctrl+c","command": "-workbench.action.terminal.copySelection","when": "terminalFocus && terminalTextSelected" },
 
     // disabling python shift enter line execution
-    {
-        "key": "shift+enter",
-        "command": "",
-        "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
-    },
-
-    {
-        "key": "shift+enter",
-        "command": "",
-        "when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
-    },
-
-    {
-        "key": "shift+enter",
-        "command": "",
-        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
-    },
-    {
-        "key": "ctrl+alt+\\",
-        "command": "workbench.action.splitEditorOrthogonal"
-    },
-    {
-        "key": "ctrl+k ctrl+\\",
-        "command": "-workbench.action.splitEditorOrthogonal"
-    }
+    {"key": "shift+enter","command": "","when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"},
+    {"key": "shift+enter","command": "","when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"},
+    {"key": "shift+enter","command": "","when":"editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"}
 ]
