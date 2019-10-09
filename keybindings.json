@@ -26,6 +26,7 @@
     //terminal override because ctrl+~ doesnt work on jp keyboard
     { "key": "ctrl+shift+alt+oem_3","command": "workbench.action.terminal.new" },
     { "key": "ctrl+shift+oem_3","command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+shift+1",          "command": "workbench.debug.action.toggleRepl" },
 
     //other controls
     { "key": "ctrl+l","command": "workbench.action.showAllEditors"},

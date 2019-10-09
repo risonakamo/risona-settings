@@ -1,0 +1,23 @@
+code --list-extensions
+for windows have to go into vscode dir/bin folder and use the code exe there
+
+AndersEAndersen.html-class-suggestions
+benjpas.close-all
+bierner.markdown-preview-github-styles
+CoenraadS.bracket-pair-colorizer-2
+donjayamanne.githistory
+HookyQR.minify
+kaiwood.indentation-level-movement
+kumar-harsh.graphql-for-vscode
+mattn.Lisp
+mechatroner.rainbow-csv
+mhutchie.git-graph
+ms-python.python
+ms-vscode.cpptools
+ms-vscode.csharp
+pejmannikram.vscode-auto-scroll
+PKief.material-icon-theme
+qinjia.seti-icons
+sgryjp.japanese-word-handler
+skacekachna.win-opacity
+slevesque.vscode-hexdump
