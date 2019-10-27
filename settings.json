@@ -197,7 +197,8 @@
     "editor.find.seedSearchStringFromSelection": false,
     "files.autoSave": "off",
     "workbench.editor.closeOnFileDelete": true,
-    "winopacity.opacity": 243,
+    "winopacity.opacity": 240,
     "editor.renderWhitespace": "none",
-    "editor.renderIndentGuides": false
+    "editor.renderIndentGuides": false,
+    "autoscroll.keepLastLineInCenter": false
 }
