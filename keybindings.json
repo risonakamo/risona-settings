@@ -47,5 +47,22 @@
     // disabling python shift enter line execution
     {"key": "shift+enter","command": "","when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"},
     {"key": "shift+enter","command": "","when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"},
-    {"key": "shift+enter","command": "","when":"editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"}
+    {"key": "shift+enter","command": "","when":"editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"},
+
+    // markdown extended keybind edits
+    {
+        "key": "ctrl+shift+right",
+        "command": "-markdownExtended.MoveColumnRight",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-markdownExtended.MoveColumnLeft",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-markdownExtended.toggleBold",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    }
 ]

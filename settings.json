@@ -200,5 +200,7 @@
     "winopacity.opacity": 240,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
-    "autoscroll.keepLastLineInCenter": false
+    "autoscroll.keepLastLineInCenter": false,
+
+    "markdown.preview.doubleClickToSwitchToEditor": false
 }
