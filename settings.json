@@ -183,7 +183,7 @@
         "#ea3a3d",
         "#eeef66",
         "#637dd2",
-        "#cc60d2",
+        "#cc60d2"
     ],
     "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
 
@@ -200,7 +200,18 @@
     "winopacity.opacity": 240,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
-    "autoscroll.keepLastLineInCenter": false,
+    "css.completion.completePropertyWithSemicolon": false,
+    "less.completion.completePropertyWithSemicolon": false,
+    "markdown.preview.doubleClickToSwitchToEditor": false,
 
-    "markdown.preview.doubleClickToSwitchToEditor": false
+    "remote.extensionKind": {
+        "coenraads.bracket-pair-colorizer-2": "ui"
+    },
+
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "git-graph.commitDetailsViewLocation": "Docked to Bottom",
+    "git-graph.fetchAndPrune": true,
+
+    "autoscroll.keepLastLineInCenter": false
 }

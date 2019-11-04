@@ -32,6 +32,7 @@ qinjia.seti-icons
 sgryjp.japanese-word-handler
 skacekachna.win-opacity
 slevesque.vscode-hexdump
+stuart.unique-window-colors
 twxs.cmake
 vector-of-bool.cmake-tools
 zxh404.vscode-proto3
