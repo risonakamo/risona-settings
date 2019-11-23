@@ -13,6 +13,8 @@ bierner.markdown-yaml-preamble
 CoenraadS.bracket-pair-colorizer-2
 donjayamanne.githistory
 HookyQR.minify
+James-Yu.latex-workshop
+jebbs.markdown-extended
 kaiwood.indentation-level-movement
 kumar-harsh.graphql-for-vscode
 magicstack.MagicPython
