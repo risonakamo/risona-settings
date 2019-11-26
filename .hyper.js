@@ -27,7 +27,7 @@ module.exports = {
     letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.8)',
+    cursorColor: 'rgba(205,226,70,0.8)',
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: '#000',
@@ -181,10 +181,12 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
     "tab:next":"ctrl+pagedown",
     "tab:prev":"ctrl+pageup",
-    "tab:new":"ctrl+alt+c",
+    "pane:splitVertical":"ctrl+\\",
+    "pane:splitHorizontal":"ctrl+shift+\\",
+
     "pane:next":"",
     "pane:prev":"",
-    "pane:splitVertical":"ctrl+alt+5",
-    "pane:splitHorizontal":"ctrl+alt+'"
+    "editor:movePreviousWord":"",
+    "editor:moveNextWord":""
   }
 };
