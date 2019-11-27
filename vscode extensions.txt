@@ -1,6 +1,13 @@
 code --list-extensions
 for windows have to go into vscode dir/bin folder and use the code exe there
 
+to merge and update this list, try an online list duplicate remover
+and alphabetic sort
+
+use convertextensionlist to create an array version to update extensions.json
+put extensions.json into a .vscode folder and open that folder to load up
+recommended extensions
+
 afpro.tfcomplete
 AndersEAndersen.html-class-suggestions
 ban.spellright
