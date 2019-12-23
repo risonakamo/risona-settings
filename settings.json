@@ -51,6 +51,7 @@
 
     "html.autoClosingTags": true,
     "git.enableSmartCommit": true,
+    "html.mirrorCursorOnMatchingTag": false,
 
     "C_Cpp.intelliSenseEngine": "Tag Parser",
 
@@ -213,5 +214,18 @@
     "git-graph.commitDetailsViewLocation": "Docked to Bottom",
     "git-graph.fetchAndPrune": true,
 
-    "autoscroll.keepLastLineInCenter": false
+    "autoscroll.keepLastLineInCenter": false,
+    "editor.find.autoFindInSelection": "multiline",
+
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e"
+        // "editor.lineHighlightBackground": "#1e1e1e",
+        // "editor.lineHighlightBorder": "#282828"
+    },
+
+    "editor.tokenColorCustomizations":{
+        "comments":"#608b4e"
+    },
+
+    "workbench.colorTheme": "Calamity"
 }

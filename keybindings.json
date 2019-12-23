@@ -34,6 +34,7 @@
     { "key": "ctrl+alt+\\","command": "editor.action.jumpToBracket","when": "editorTextFocus" },
     {"key": "ctrl+shift+\\","command": "workbench.action.splitEditorOrthogonal"},
     {"key": "ctrl+k ctrl+\\","command": "-workbench.action.splitEditorOrthogonal"},
+    { "key": "ctrl+shift+f12","command": "references-view.find","when": "editorHasReferenceProvider" },
 
     //panel movement
     { "key": "ctrl+alt+down",           "command": "workbench.action.moveActiveEditorGroupDown" },
