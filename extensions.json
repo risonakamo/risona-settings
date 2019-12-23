@@ -1,6 +1,7 @@
 {
     "recommendations":[
         "afpro.tfcomplete",
+        "alefragnani.Bookmarks",
         "AndersEAndersen.html-class-suggestions",
         "ban.spellright",
         "benjpas.close-all",
@@ -15,8 +16,10 @@
         "James-Yu.latex-workshop",
         "jebbs.markdown-extended",
         "kaiwood.indentation-level-movement",
+        "kaiye.dark-dark",
         "kumar-harsh.graphql-for-vscode",
         "magicstack.MagicPython",
+        "marcoms.oceanic-plus",
         "MarioSchwalbe.gnuplot",
         "mattn.Lisp",
         "mechatroner.rainbow-csv",
@@ -29,6 +32,8 @@
         "ms-vscode.csharp",
         "pejmannikram.vscode-auto-scroll",
         "PKief.material-icon-theme",
+        "pshershov.blueberry-banana",
+        "Pustur.calamity-vscode",
         "qinjia.seti-icons",
         "sgryjp.japanese-word-handler",
         "skacekachna.win-opacity",

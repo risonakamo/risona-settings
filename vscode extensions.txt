@@ -2,13 +2,14 @@ code --list-extensions
 for windows have to go into vscode dir/bin folder and use the code exe there
 
 to merge and update this list, try an online list duplicate remover
-and alphabetic sort
+and alphabetic sort (https://www.textfixer.com/tools/remove-duplicate-lines.php)
 
 use convertextensionlist to create an array version to update extensions.json
 put extensions.json into a .vscode folder and open that folder to load up
 recommended extensions
 
 afpro.tfcomplete
+alefragnani.Bookmarks
 AndersEAndersen.html-class-suggestions
 ban.spellright
 benjpas.close-all
@@ -23,8 +24,10 @@ HookyQR.minify
 James-Yu.latex-workshop
 jebbs.markdown-extended
 kaiwood.indentation-level-movement
+kaiye.dark-dark
 kumar-harsh.graphql-for-vscode
 magicstack.MagicPython
+marcoms.oceanic-plus
 MarioSchwalbe.gnuplot
 mattn.Lisp
 mechatroner.rainbow-csv
@@ -37,6 +40,8 @@ ms-vscode.cpptools
 ms-vscode.csharp
 pejmannikram.vscode-auto-scroll
 PKief.material-icon-theme
+pshershov.blueberry-banana
+Pustur.calamity-vscode
 qinjia.seti-icons
 sgryjp.japanese-word-handler
 skacekachna.win-opacity
