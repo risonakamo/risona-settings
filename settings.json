@@ -218,14 +218,14 @@
     "editor.find.autoFindInSelection": "multiline",
 
     "workbench.colorCustomizations": {
-        "editor.background": "#1e1e1e"
-        // "editor.lineHighlightBackground": "#1e1e1e",
-        // "editor.lineHighlightBorder": "#282828"
+        "editor.background": "#1e1e1e",
+        "editorGutter.background": "#1e1e1e",
+        "editorGroup.border": "#444444",
+        "editor.lineHighlightBackground": "#1e1e1e",
+        "editor.lineHighlightBorder": "#282828"
     },
 
     "editor.tokenColorCustomizations":{
         "comments":"#608b4e"
-    },
-
-    "workbench.colorTheme": "Calamity"
+    }
 }
