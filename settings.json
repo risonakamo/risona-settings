@@ -218,14 +218,36 @@
     "editor.find.autoFindInSelection": "multiline",
 
     "workbench.colorCustomizations": {
-        "editor.background": "#1e1e1e",
-        "editorGutter.background": "#1e1e1e",
-        "editorGroup.border": "#444444",
-        "editor.lineHighlightBackground": "#1e1e1e",
-        "editor.lineHighlightBorder": "#282828"
+        /*-- DEFAULTS --*/
+        //default editor background colours
+        // "editor.background": "#1e1e1e",
+        // "editorGutter.background": "#1e1e1e",
+
+        //default editor tab colours
+        // "editorGroupHeader.tabsBackground": "#1e1e1e",
+        // "tab.inactiveBackground": "#2d2d2d",
+        // "tab.activeBackground": "#1e1e1e",
+        // "tab.border": "#252526",
+
+        //default editor group colours
+        // "editorGroup.border": "#444444",
+
+        //default line highlight colours
+        // "editor.lineHighlightBackground": "#1e1e1e",
+        // "editor.lineHighlightBorder": "#282828"
+        /*-- END DEFAULTS --*/
+
+        "[Activate UMBRA protocol]":{
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editorGroupHeader.tabsBackground": "#1e1e1e",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.activeBackground": "#1e1e1e",
+            "tab.border": "#252526",
+        }
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
+        // "comments":"#608b4e"
     }
 }
