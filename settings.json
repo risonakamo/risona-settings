@@ -1,13 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
+    /*-------- EDITOR SETTINGS --------*/
     "editor.autoClosingBrackets": "never",
-    "css.lint.emptyRules": "ignore",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
     "editor.fontSize": 12,
-    "python.linting.enabledWithoutWorkspace": false,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
@@ -24,7 +23,33 @@
     "extensions.autoUpdate": false,
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
+    "extensions.ignoreRecommendations": true,
+    // "workbench.welcome.enabled": false, //old vscode (1.12?)
+    // "window.reopenFolders": "none"
+    "window.zoomLevel": 0,
+    "editor.codeLens": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
+    "editor.parameterHints.enabled": false,
+    "breadcrumbs.enabled": true,
+    "search.useIgnoreFiles": false,
+    "editor.autoClosingQuotes": "never",
+    "workbench.activityBar.visible": false,
+    "editor.find.seedSearchStringFromSelection": false,
+    "files.autoSave": "off",
+    "workbench.editor.closeOnFileDelete": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "remote.extensionKind": {
+        "coenraads.bracket-pair-colorizer-2": "ui"
+    },
+    "editor.find.autoFindInSelection": "multiline",
+    "git.enableSmartCommit": true,
 
+    /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
     "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
     "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
@@ -44,14 +69,9 @@
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.suggest.autoImports": false,
-
-    "extensions.ignoreRecommendations": true,
     // "javascript.format.enable": false,
-    // "workbench.welcome.enabled": false, //old vscode (1.12?)
-    // "window.reopenFolders": "none"
 
     "html.autoClosingTags": true,
-    "git.enableSmartCommit": true,
     "html.mirrorCursorOnMatchingTag": false,
 
     "C_Cpp.intelliSenseEngine": "Tag Parser",
@@ -60,10 +80,16 @@
         "pylint"
     ],
     "python.linting.enabled": false,
-    "window.zoomLevel": 0,
-    "editor.codeLens": false,
-    "update.enableWindowsBackgroundUpdates": false,
+    "python.linting.enabledWithoutWorkspace": false,
 
+    "css.lint.emptyRules": "ignore",
+    "css.completion.completePropertyWithSemicolon": false,
+    "less.completion.completePropertyWithSemicolon": false,
+    "less.lint.emptyRules": "ignore",
+
+    "cmake.configureOnOpen": false,
+
+    /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
         "caseSensitive": true,
         "collapseBooleanAttributes": true,
@@ -129,15 +155,13 @@
         "semanticMerging": false,
         "shorthandCompacting": true
     },
-    "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
-    "editor.parameterHints.enabled": false,
-    "less.lint.emptyRules": "ignore",
-    "breadcrumbs.enabled": true,
+
     "material-icon-theme.hidesExplorerArrows": false,
-    "cmake.configureOnOpen": false,
 
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
     "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
+
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
     //     // "#d4d4d4",
@@ -187,38 +211,21 @@
         "#637dd2",
         "#cc60d2"
     ],
-    "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
 
     "spellright.notificationClass":"error",
     "spellright.documentTypes": [],
-    "search.useIgnoreFiles": false,
-    "editor.autoClosingQuotes": "never",
-    "workbench.activityBar.visible": false,
+
+    "winopacity.opacity": 240,
+
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
-    "editor.find.seedSearchStringFromSelection": false,
-    "files.autoSave": "off",
-    "workbench.editor.closeOnFileDelete": true,
-    "winopacity.opacity": 240,
-    "editor.renderWhitespace": "none",
-    "editor.renderIndentGuides": false,
-    "css.completion.completePropertyWithSemicolon": false,
-    "less.completion.completePropertyWithSemicolon": false,
-    "markdown.preview.doubleClickToSwitchToEditor": false,
-
-    "remote.extensionKind": {
-        "coenraads.bracket-pair-colorizer-2": "ui"
-    },
-
-    "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true,
     "git-graph.commitDetailsViewLocation": "Docked to Bottom",
     "git-graph.fetchAndPrune": true,
     "git-graph.openRepoToHead": true,
 
     "autoscroll.keepLastLineInCenter": false,
-    "editor.find.autoFindInSelection": "multiline",
 
+    /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
         /*-- DEFAULTS --*/
         //-- default editor background colours --
@@ -242,8 +249,9 @@
 
         //-- editor selection colours --
         // "editor.selectionBackground": "#264f78",
-        // "editor.selectionHighlightBackground": "#add6ff26", //colour when selecting all text thats the
-                                                               //same as the word cursor is on
+        // "editor.selectionHighlightBackground": "#add6ff26",
+        // "editor.wordHighlightBackground": "#575757b8",
+        // "editor.wordHighlightStrongBackground": "#004972b8",
 
         //-- input box --
         // "input.placeholderForeground": "#a6a6a6",
@@ -268,7 +276,7 @@
             "editorGroupHeader.tabsBackground": "#1e1e1e",
             "tab.inactiveBackground": "#2d2d2d",
             "tab.activeBackground": "#1e1e1e",
-            "tab.border": "#252526",
+            "tab.border": "#252526"
         },
         "[Activate SCARLET protocol (beta)]":{
             "editor.background": "#1e1e1e",
@@ -276,7 +284,7 @@
             "editorGroupHeader.tabsBackground": "#1e1e1e",
             "tab.inactiveBackground": "#2d2d2d",
             "tab.activeBackground": "#1e1e1e",
-            "tab.border": "#252526",
+            "tab.border": "#252526"
         },
         "[Cyberpunk]":{
             "editor.background": "#1e1e1e",
@@ -284,7 +292,7 @@
             "editorGroupHeader.tabsBackground": "#1e1e1e",
             "tab.inactiveBackground": "#2d2d2d",
             "tab.activeBackground": "#1e1e1e",
-            "tab.border": "#252526",
+            "tab.border": "#252526"
         },
         "[colorful]":{
             "diffEditor.insertedTextBackground": "#9bb95533"
@@ -310,7 +318,9 @@
             "breadcrumb.background": "#1e1e1e",
             "editor.lineHighlightBackground": "#1e1e1e",
             "editor.lineHighlightBorder": "#282828",
-            "editor.selectionHighlightBackground": "#add6ff26"
+            "editor.selectionHighlightBackground": "#add6ff26",
+            "editor.wordHighlightBackground": "#575757b8",
+            "editor.wordHighlightStrongBackground": "#004972b8"
         }
     },
 
