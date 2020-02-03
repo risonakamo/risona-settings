@@ -227,49 +227,6 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        /*-- DEFAULTS --*/
-        //-- default editor background colours --
-        // "editor.background": "#1e1e1e",
-        // "editorGutter.background": "#1e1e1e",
-
-        //-- default editor tab colours --
-        // "editorGroupHeader.tabsBackground": "#1e1e1e",
-        // "tab.inactiveBackground": "#2d2d2d",
-        // "tab.activeBackground": "#1e1e1e",
-        // "tab.border": "#252526",
-        // "tab.unfocusedActiveForeground": "#ffffff80",
-        // "tab.unfocusedInactiveForeground": "#ffffff40",
-
-        //-- default editor group colours --
-        // "editorGroup.border": "#444444",
-
-        //-- default line highlight colours --
-        // "editor.lineHighlightBackground": "#1e1e1e",
-        // "editor.lineHighlightBorder": "#282828"
-
-        //-- editor selection colours --
-        // "editor.selectionBackground": "#264f78",
-        // "editor.selectionHighlightBackground": "#add6ff26",
-        // "editor.wordHighlightBackground": "#575757b8",
-        // "editor.wordHighlightStrongBackground": "#004972b8",
-
-        //-- input box --
-        // "input.placeholderForeground": "#a6a6a6",
-
-        //-- git diff colours --
-		// "diffEditor.insertedTextBackground": "#9bb95533",
-        // "diffEditor.removedTextBackground": "#ff000033",
-
-        //-- autocomplete --
-        // "editorSuggestWidget.selectedBackground": "#062f4a",
-
-        //-- status bar --
-        // "statusBar.foreground": "#ffffff",
-
-        //-- breadcrumbs --
-        //"breadcrumb.background": "#1e1e1e",
-        /*-- END DEFAULTS --*/
-
         "[Activate UMBRA protocol]":{
             "editor.background": "#1e1e1e",
             "editorGutter.background": "#1e1e1e",
@@ -321,6 +278,21 @@
             "editor.selectionHighlightBackground": "#add6ff26",
             "editor.wordHighlightBackground": "#575757b8",
             "editor.wordHighlightStrongBackground": "#004972b8"
+        },
+        "[Hipster]":{
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editorGroupHeader.tabsBackground": "#1e1e1e",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.activeBackground": "#1e1e1e",
+            "tab.border": "#252526",
+            "tab.unfocusedActiveForeground": "#ffffff80",
+            "tab.unfocusedInactiveForeground": "#ffffff40",
+            "tab.inactiveForeground": "#ffffff80",
+            "sideBar.background": "#252526",
+            "sideBarTitle.foreground": "#bbbbbb",
+            "sideBar.foreground": "#d4d4d4",
+            "statusBar.noFolderForeground": "#2c3e50"
         }
     },
 

@@ -1,0 +1,52 @@
+{
+    "workbench.colorCustomizations": {
+        //-- default editor background colours --
+        "editor.background": "#1e1e1e",
+        "editorGutter.background": "#1e1e1e",
+
+        //-- default editor tab colours --
+        "editorGroupHeader.tabsBackground": "#1e1e1e",
+        "tab.inactiveBackground": "#2d2d2d",
+        "tab.activeBackground": "#1e1e1e",
+        "tab.border": "#252526",
+        "tab.unfocusedActiveForeground": "#ffffff80",
+        "tab.unfocusedInactiveForeground": "#ffffff40",
+		"tab.inactiveForeground": "#ffffff80",
+
+        //-- default editor group colours --
+        "editorGroup.border": "#444444",
+
+        //-- default line highlight colours --
+        "editor.lineHighlightBackground": "#1e1e1e",
+        "editor.lineHighlightBorder": "#282828",
+
+        //-- editor selection colours --
+        "editor.selectionBackground": "#264f78",
+        "editor.selectionHighlightBackground": "#add6ff26",
+        "editor.wordHighlightBackground": "#575757b8",
+        "editor.wordHighlightStrongBackground": "#004972b8",
+
+        //-- input box --
+        "input.placeholderForeground": "#a6a6a6",
+
+        //-- git diff colours --
+		"diffEditor.insertedTextBackground": "#9bb95533",
+        "diffEditor.removedTextBackground": "#ff000033",
+
+        //-- autocomplete --
+        "editorSuggestWidget.selectedBackground": "#062f4a",
+
+        //-- status bar --
+        "statusBar.foreground": "#ffffff",
+        "statusBar.background": "#007acc",
+        "statusBar.noFolderBackground": "#68217a",
+
+        //-- breadcrumbs --
+        "breadcrumb.background": "#1e1e1e",
+
+        //-- sidebar, which also for some reason applies to the ctrl+p menu --
+        "sideBar.background": "#252526",
+        "sideBarTitle.foreground": "#bbbbbb",
+        "sideBar.foreground": "#d4d4d4"
+    }
+}

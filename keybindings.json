@@ -30,7 +30,7 @@
 
     //other controls
     { "key": "ctrl+l","command": "workbench.action.showAllEditors"},
-    {"key":"ctrl+shift+w","command":""},
+    {"key":"ctrl+shift+w","command":"workbench.view.explorer"},
     { "key": "ctrl+alt+\\","command": "editor.action.jumpToBracket","when": "editorTextFocus" },
     {"key": "ctrl+shift+\\","command": "workbench.action.splitEditorOrthogonal"},
     {"key": "ctrl+k ctrl+\\","command": "-workbench.action.splitEditorOrthogonal"},
