@@ -41,7 +41,7 @@
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -69,6 +69,7 @@
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false,
     // "javascript.format.enable": false,
 
     "html.autoClosingTags": true,
@@ -161,6 +162,9 @@
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
     "bracket-pair-colorizer-2.showVerticalScopeLine": false,
     "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "bracketPairColorizer.excludedLanguages":["markdown"],
 
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
@@ -210,6 +214,41 @@
         "#eeef66",
         "#637dd2",
         "#cc60d2"
+    ],
+    "bracketPairColorizer.consecutivePairColors":[
+        ["(",")"],
+        ["[","]"],
+        ["{","}"],
+        [
+            "#d4d4d4",
+            "#4da7bb",
+            "#f7c627",
+            "#93a957",
+            "#d61431",
+            "#a9895f",
+            "#5e47d0",
+            "#f9e242",
+            "#a5d228",
+            "#e5798b",
+            "#7f645f",
+            "#62cbca",
+            "#ebb25b",
+            "#47e47f",
+            "#e72955",
+            "#97ded9",
+            "#d89760",
+            "#f0abbb",
+            "#d92f1b",
+            "#f0eca0",
+            "#51b0d7",
+            "#a4f680",
+            "#e33f85",
+            "#ea3a3d",
+            "#eeef66",
+            "#637dd2",
+            "#cc60d2"
+        ],
+        "red"
     ],
 
     "spellright.notificationClass":"error",
@@ -293,10 +332,23 @@
             "sideBarTitle.foreground": "#bbbbbb",
             "sideBar.foreground": "#d4d4d4",
             "statusBar.noFolderForeground": "#2c3e50"
+        },
+        "[Fade]":{
+            "editor.background": "#1e1e1e",
+        },
+        "[Woz-U Dark Theme]":{
+            "editor.foreground": "#d4d4d4",
+        },
+        "[One Dark Vivid]":{
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editorGroupHeader.tabsBackground": "#1e1e1e",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.activeBackground": "#1e1e1e",
         }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        "comments":"#608b4e"
     }
 }
