@@ -29,10 +29,13 @@
 
         //-- input box --
         "input.placeholderForeground": "#a6a6a6",
+        "input.background": "#3c3c3c",
 
         //-- git diff colours --
-		"diffEditor.insertedTextBackground": "#9bb95533",
+        "diffEditor.insertedTextBackground": "#9bb95533",
         "diffEditor.removedTextBackground": "#ff000033",
+        "diffEditor.insertedTextBorder": "#9bb9553300",
+        "diffEditor.removedTextBorder": "#ff00003300",
 
         //-- autocomplete --
         "editorSuggestWidget.selectedBackground": "#062f4a",
@@ -48,6 +51,9 @@
         //-- sidebar, which also for some reason applies to the ctrl+p menu --
         "sideBar.background": "#252526",
         "sideBarTitle.foreground": "#bbbbbb",
-        "sideBar.foreground": "#d4d4d4"
+        "sideBar.foreground": "#d4d4d4",
+
+        //-- lists like ctrl+p menu --
+        "list.focusBackground": "#062f4a"
     }
 }
