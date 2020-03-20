@@ -35,6 +35,8 @@
     {"key": "ctrl+shift+\\","command": "workbench.action.splitEditorOrthogonal"},
     {"key": "ctrl+k ctrl+\\","command": "-workbench.action.splitEditorOrthogonal"},
     { "key": "ctrl+shift+f12","command": "references-view.find","when": "editorHasReferenceProvider" },
+    { "key": "ctrl+alt+z",            "command": "-glassit.increase" },
+    { "key": "ctrl+alt+c",            "command": "-glassit.decrease" },
 
     //panel movement
     { "key": "ctrl+alt+down",           "command": "workbench.action.moveActiveEditorGroupDown" },

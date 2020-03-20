@@ -1,4 +1,4 @@
-// Place your settings in this file to overwrite the default settings
+﻿// Place your settings in this file to overwrite the default settings
 {
     /*-------- EDITOR SETTINGS --------*/
     "editor.autoClosingBrackets": "never",
@@ -255,6 +255,7 @@
     "spellright.documentTypes": [],
 
     "winopacity.opacity": 240,
+    "glassit.alpha":240,
 
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -345,10 +346,28 @@
             "editorGroupHeader.tabsBackground": "#1e1e1e",
             "tab.inactiveBackground": "#2d2d2d",
             "tab.activeBackground": "#1e1e1e",
+        },
+        "[Nova]":{
+            "editor.background": "#1e1e1e",
+            "editorGroup.border": "#444444",
+            "editor.lineHighlightBackground": "#55687380",
+            "list.focusBackground": "#6a7d8980",
+            "editor.selectionBackground": "#264f78",
+            "editor.selectionHighlightBackground": "#add6ff26",
+            "input.background": "#55687350",
+            "diffEditor.insertedTextBackground": "#9bb95533",
+            "diffEditor.removedTextBackground": "#ff000033",
+            "diffEditor.insertedTextBorder": "#00000000",
+            "diffEditor.removedTextBorder": "#00000000",
+            "scrollbarSlider.background": "#7fc1ca80",
+        },
+        "[Halcyon]":{
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
         }
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
+        // "comments":"#608b4e"
     }
 }
