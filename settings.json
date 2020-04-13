@@ -255,7 +255,7 @@
     "spellright.documentTypes": [],
 
     "winopacity.opacity": 240,
-    "glassit.alpha":240,
+    "glassit.alpha":230,
 
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -364,6 +364,16 @@
         "[Halcyon]":{
             "editor.background": "#1e1e1e",
             "editorGutter.background": "#1e1e1e",
+        },
+        "[Moon]":{
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editor.selectionBackground": "#264f78",
+            "editor.selectionHighlightBackground": "#add6ff26",
+        },
+        "[Spacegray Python]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
         }
     },
 
