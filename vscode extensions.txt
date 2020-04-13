@@ -13,6 +13,7 @@ alefragnani.Bookmarks
 AndersEAndersen.html-class-suggestions
 ankitcode.firefly
 ban.spellright
+bceskavich.theme-dracula-at-night
 benjpas.close-all
 bierner.github-markdown-preview
 bierner.markdown-checkbox
@@ -59,12 +60,14 @@ pshershov.blueberry-banana
 Pustur.calamity-vscode
 qinjia.seti-icons
 rebornix.nova
+robertrossmann.remedy
 RudeBoyEnterprises.rbe-matrix-skin-theme
 s-nlf-fh.glassit
 sgryjp.japanese-word-handler
 skacekachna.win-opacity
 slevesque.vscode-hexdump
 stuart.unique-window-colors
+taniarascia.new-moon-dracula-vscode
 twxs.cmake
 vector-of-bool.cmake-tools
 woz-u.woz-u-themes
