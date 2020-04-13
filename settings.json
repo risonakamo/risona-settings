@@ -1,6 +1,7 @@
 ﻿// Place your settings in this file to overwrite the default settings
 {
     /*-------- EDITOR SETTINGS --------*/
+    "terminal.integrated.allowChords": false,
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -27,7 +28,6 @@
     // "workbench.welcome.enabled": false, //old vscode (1.12?)
     // "window.reopenFolders": "none"
     "window.zoomLevel": 0,
-    "editor.codeLens": false,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
     "editor.parameterHints.enabled": false,
@@ -74,8 +74,6 @@
 
     "html.autoClosingTags": true,
     "html.mirrorCursorOnMatchingTag": false,
-
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
 
     "python.disablePromptForFeatures": [
         "pylint"
@@ -265,6 +263,12 @@
 
     "autoscroll.keepLastLineInCenter": false,
 
+    "remote.SSH.remotePlatform": {
+        "yoshi": "linux",
+        "fox": "linux",
+        "sonic": "linux"
+    },
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
         "[Activate UMBRA protocol]":{
@@ -364,6 +368,23 @@
         "[Halcyon]":{
             "editor.background": "#1e1e1e",
             "editorGutter.background": "#1e1e1e",
+        },
+        "[Remedy - Dark (Straight)]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+        },
+        "[New Moon Dracula]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editor.selectionBackground": "#264f78",
+            "editor.selectionHighlightBackground": "#add6ff26",
+            "editor.lineHighlightBackground": "#1e1e1e",
+            "editor.lineHighlightBorder": "#282828",
+        },
+        "[Dracula At Night]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editorGroup.border": "#444444",
         },
         "[Moon]":{
             "editor.background": "#1e1e1e",
