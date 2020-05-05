@@ -815,3 +815,11 @@ https://c-7npsfqifvt34x24wdeox2ebeoytx2edpn.g00.*
 contextual.media.net
 skl-874.*
 *.get-express-vpn.com/*
+honkaiimpact3.gamepedia.com###siderail_honkaiimpact3_gamepedia_en
+socialcoffeebreak.com
+*65wd4.*
+*nethaneel*
+*mydocsconverter*
+*mysecurify*
+*surveystarz*
+*.mysecurify.*
