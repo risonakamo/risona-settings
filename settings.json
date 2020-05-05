@@ -253,7 +253,7 @@
     "spellright.documentTypes": [],
 
     "winopacity.opacity": 240,
-    "glassit.alpha":230,
+    "glassit.alpha":235,
 
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -395,6 +395,17 @@
         "[Spacegray Python]": {
             "editor.background": "#1e1e1e",
             "editorGutter.background": "#1e1e1e"
+        },
+        "[fairyfloss]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editor.lineHighlightBackground": "#71679999",
+        },
+        "[Shinkai]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "diffEditor.insertedTextBackground": "#15bddb33",
+            "diffEditor.removedTextBackground": "#f1888e33",
         }
     },
 
