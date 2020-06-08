@@ -1,9 +1,10 @@
 {
     "workbench.colorCustomizations": {
-        //-- default editor background colours --
+        //-- default editor colours --
         "editor.background": "#1e1e1e",
         "editor.foreground": "#d4d4d4",
         "editorGutter.background": "#1e1e1e",
+        "editorLineNumber.foreground": "#858585",
 
         //-- default editor tab colours --
         "editorGroupHeader.tabsBackground": "#1e1e1e",
