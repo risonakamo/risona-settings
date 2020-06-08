@@ -23,6 +23,8 @@
         "editor.lineHighlightBorder": "#282828",
 
         //-- editor selection colours --
+        // (when highlighting by selecting text, or clicking on a word and
+        // it highlights the same word in other places)
         "editor.selectionBackground": "#264f78",
         "editor.selectionHighlightBackground": "#add6ff26",
         "editor.wordHighlightBackground": "#575757b8",
