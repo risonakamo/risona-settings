@@ -2,7 +2,9 @@ const execa=require("execa");
 const fs=require("fs");
 const union=require("lodash.union");
 
+// --- CONFIGURATION ---
 const _vscodepath="C:/Users/ngokn1/Documents/other programs/vscode/bin/code";
+// --- END CONFIGURATION ---
 
 function main()
 {
@@ -11,6 +13,7 @@ function main()
 
     var combinedextensions=unionSort(installextensions,extensionsfile);
 
+    console.log(`${combinedextensions.length-extensionsfile.length} new extensions`);
     outputExtensionsJson(combinedextensions);
 }
 

@@ -4,5 +4,8 @@
   "dependencies": {
     "execa": "^4.0.2",
     "lodash.union": "^4.6.0"
+  },
+  "scripts": {
+    "run":"node extensionsexport.js"
   }
 }
