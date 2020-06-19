@@ -9,9 +9,9 @@ function main()
     var installextensions=getVsCodeExtensions(_vscodepath);
     var extensionsfile=getExtensionFile();
 
-    console.log(installextensions.length);
-    console.log(extensionsfile.length);
-    console.log(unionSort(installextensions,extensionsfile));
+    var combinedextensions=unionSort(installextensions,extensionsfile);
+
+    outputExtensionsJson(combinedextensions);
 }
 
 // retrive list of currently installed vscode extensions
@@ -65,7 +65,9 @@ function outputExtensionsJson(extensions)
 {
     fs.writeFile("extensions.json",JSON.stringify({
         recommendations:extensions
-    }));
+    },null,4),()=>{
+        console.log("exported extensions.json");
+    });
 }
 
 main();
