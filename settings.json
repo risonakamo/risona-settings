@@ -406,10 +406,49 @@
             "editorGutter.background": "#1e1e1e",
             "diffEditor.insertedTextBackground": "#15bddb33",
             "diffEditor.removedTextBackground": "#f1888e33",
+        },
+        "[Atom Pro Theme]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[comfortable-color-theme]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editorLineNumber.foreground": "#858585"
+        },
+        "[Arduino Dark]": {
+            "editorGroupHeader.tabsBackground": "#1e1e1e",
+            "editorLineNumber.foreground": "#858585",
+            "editor.selectionHighlightBackground": "#add6ff26",
+            "sideBar.background": "#252526",
+            "sideBar.foreground": "#d4d4d4",
         }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        "comments":"#608b4e"
+        // "textMateRules": [
+        //     {
+        //         "scope": "comment",
+        //         "settings": {
+        //             "foreground": "#608b4e",
+        //             "fontStyle": ""
+        //         }
+        //     },
+        //     {
+        //         "scope": "comment.line",
+        //         "settings": {
+        //             "foreground": "#608b4e",
+        //             "fontStyle": ""
+        //         }
+        //     },
+        //     {
+        //         "scope": "comment.block",
+        //         "settings": {
+        //             "foreground": "#608b4e",
+        //             "fontStyle": ""
+        //         }
+        //     },
+        // ]
     }
 }
