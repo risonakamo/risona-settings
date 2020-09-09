@@ -12,7 +12,6 @@
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
@@ -87,6 +86,9 @@
     "less.lint.emptyRules": "ignore",
 
     "cmake.configureOnOpen": false,
+
+    "github.gitAuthentication": false,
+    "search.searchEditor.reusePriorSearchConfiguration": true,
 
     /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
@@ -163,6 +165,10 @@
     "bracketPairColorizer.showHorizontalScopeLine": false,
     "bracketPairColorizer.showVerticalScopeLine": false,
     "bracketPairColorizer.excludedLanguages":["markdown"],
+    "csharp.referencesCodeLens.enabled": false,
+    "csharp.testsCodeLens.enabled": false,
+    "omnisharp.autoStart": false,
+    "csharp.suppressDotnetInstallWarning": true,
 
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
@@ -268,6 +274,8 @@
         "fox": "linux",
         "sonic": "linux"
     },
+
+    "auto-close-tag.SublimeText3Mode": true,
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
@@ -422,11 +430,56 @@
             "editor.selectionHighlightBackground": "#add6ff26",
             "sideBar.background": "#252526",
             "sideBar.foreground": "#d4d4d4",
+        },
+        "[Spacegray Ocean Dark]": {
+            "editor.background": "#1e1e1e",
+        },
+        "[Glitch Dark]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editor.lineHighlightBackground": "#1e1e1e",
+            "editor.lineHighlightBorder": "#282828",
+            "titleBar.activeForeground": "#a3a3a3"
+        },
+        "[Hyper Term Black]": {
+            "editor.background": "#1e1e1e",
+        },
+        "[Ariake Dark]": {
+            "editor.background": "#1e1e1e",
+            "editor.selectionHighlightBackground": "#add6ff26",
+        },
+        "[One Dark Italic]": {
+            "editor.background": "#1e1e1e",
+        },
+        "[Sepia from Cuttlefish]": {
+            "editor.background": "#1e1e1e",
+        },
+        "[Nord Deep]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "diffEditor.insertedTextBackground": "#88c0d040",
+        },
+        "[Cyberdyne 20XX]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+        },
+        "[Neon Verdigris]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+        },
+        "[zen-light-theme]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[NewRailscasts]": {
+            "scrollbarSlider.background": "#340e4eB3",
+            "scrollbarSlider.hoverBackground": "#40125fB3",
+            "scrollbarSlider.activeBackground": "#50187ab3",
         }
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
+        // "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope": "comment",
