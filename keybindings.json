@@ -21,7 +21,7 @@
     { "key": "ctrl+x h","command": "editor.action.selectAll" }, //emacs select all
 
     {"key":"ctrl+x m","command":"workbench.action.editor.changeLanguageMode"},
-    {"key":"ctrl+x l","command":"workbench.action.gotoLine"},
+    {"key":"ctrl+;","command":"workbench.action.gotoLine"},
 
     //terminal override because ctrl+~ doesnt work on jp keyboard
     { "key": "ctrl+shift+alt+oem_3","command": "workbench.action.terminal.new" },

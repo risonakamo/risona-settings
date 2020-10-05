@@ -159,16 +159,18 @@
 
     "material-icon-theme.hidesExplorerArrows": false,
 
-    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
-    "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
-    "bracketPairColorizer.showHorizontalScopeLine": false,
-    "bracketPairColorizer.showVerticalScopeLine": false,
-    "bracketPairColorizer.excludedLanguages":["markdown"],
     "csharp.referencesCodeLens.enabled": false,
     "csharp.testsCodeLens.enabled": false,
     "omnisharp.autoStart": false,
     "csharp.suppressDotnetInstallWarning": true,
+
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
+
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "bracketPairColorizer.excludedLanguages":["markdown"],
 
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
@@ -475,6 +477,20 @@
             "scrollbarSlider.background": "#340e4eB3",
             "scrollbarSlider.hoverBackground": "#40125fB3",
             "scrollbarSlider.activeBackground": "#50187ab3",
+        },
+        "[fairyfloss complete]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "editor.lineHighlightBackground": "#71679999"
+        },
+        "[Material Basic - Breeze]": {
+            "scrollbarSlider.activeBackground": "#31363bB3",
+            "scrollbarSlider.background": "#31363bB3",
+            "scrollbarSlider.hoverBackground": "#31363bB3"
+        },
+        "[Dark (Molokai)]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
         }
     },
 
