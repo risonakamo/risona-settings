@@ -2,6 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
+    // "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -89,6 +90,10 @@
 
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
+
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
 
     /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
@@ -261,7 +266,7 @@
     "spellright.documentTypes": [],
 
     "winopacity.opacity": 240,
-    "glassit.alpha":235,
+    "glassit.alpha":230,
 
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -490,7 +495,38 @@
         },
         "[Dark (Molokai)]": {
             "editor.background": "#1e1e1e",
-            "editorGutter.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[CodeRunner 2 Theme]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[One Dark Pro]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[Pretentious Name - deprioritised punctuation]": {
+            "editor.background": "#1e1e1e"
+        },
+        "[ayu-owl]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[[Kuskus] Kusto (Dark)]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[Lasers]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[arcade]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
+        },
+        "[Hybrid Next Plus]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
         }
     },
 
