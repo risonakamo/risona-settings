@@ -53,6 +53,7 @@
     { "key": "ctrl+shift+f12","command": "references-view.find","when": "editorHasReferenceProvider" },
     { "key": "ctrl+alt+z",            "command": "-glassit.increase" },
     { "key": "ctrl+alt+c",            "command": "-glassit.decrease" },
+    {"key": "ctrl+x c","command": "merge-conflict.compare"},
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},

@@ -48,6 +48,7 @@
     },
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -70,6 +71,7 @@
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.suggest.autoImports": false,
     "typescript.suggest.autoImports": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
     // "javascript.format.enable": false,
 
     "html.autoClosingTags": true,
@@ -91,7 +93,7 @@
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
 
-    "[typescriptreact]": {
+    "[typescriptreact]":{
         "editor.tabSize": 2
     },
 
@@ -266,7 +268,7 @@
     "spellright.documentTypes": [],
 
     "winopacity.opacity": 240,
-    "glassit.alpha":230,
+    "glassit.alpha":235,
 
     "git-graph.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -279,16 +281,19 @@
     "remote.SSH.remotePlatform": {
         "yoshi": "linux",
         "fox": "linux",
-        "sonic": "linux"
+        "sonic": "linux",
+        "mallard": "linux"
     },
 
     "auto-close-tag.SublimeText3Mode": true,
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Hybrid Next Plus]": {
-            "editor.background": "#1e1e1e",
-            "editorGutter.background": "#1e1e1e"
+        "[Feel Better]": {
+            "editor.background":"#1e1e1e",
+            "editorGutter.background":"#1e1e1e",
+            "editor.lineHighlightBackground":"#1e1e1e",
+            "editor.lineHighlightBorder":"#282828"
         }
     },
 
