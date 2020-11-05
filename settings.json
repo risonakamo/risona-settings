@@ -49,6 +49,9 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
+    "http.proxyStrictSSL": false,
+    "github.gitAuthentication": false,
+    "search.searchEditor.reusePriorSearchConfiguration": true,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -89,9 +92,6 @@
     "less.lint.emptyRules": "ignore",
 
     "cmake.configureOnOpen": false,
-
-    "github.gitAuthentication": false,
-    "search.searchEditor.reusePriorSearchConfiguration": true,
 
     "[typescriptreact]":{
         "editor.tabSize": 2
@@ -275,6 +275,7 @@
     "git-graph.commitDetailsViewLocation": "Docked to Bottom",
     "git-graph.fetchAndPrune": true,
     "git-graph.openRepoToHead": true,
+    "git-graph.repository.fetchAndPrune": true,
 
     "autoscroll.keepLastLineInCenter": false,
 
@@ -323,4 +324,7 @@
         //     },
         // ]
     }
+
+    // "workbench.colorTheme": "Feel Better",
+    // "workbench.iconTheme": "material-icon-theme"
 }

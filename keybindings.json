@@ -54,6 +54,7 @@
     { "key": "ctrl+alt+z",            "command": "-glassit.increase" },
     { "key": "ctrl+alt+c",            "command": "-glassit.decrease" },
     {"key": "ctrl+x c","command": "merge-conflict.compare"},
+    {"key": "ctrl+g","command": "git-graph.view"},
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},
