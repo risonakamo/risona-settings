@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "adammaras.overtype",
         "afpro.tfcomplete",
         "alefragnani.Bookmarks",
         "AndersEAndersen.html-class-suggestions",
@@ -21,6 +22,7 @@
         "HookyQR.minify",
         "James-Yu.latex-workshop",
         "jebbs.markdown-extended",
+        "kaiwood.center-editor-window",
         "kaiwood.indentation-level-movement",
         "kumar-harsh.graphql-for-vscode",
         "magicstack.MagicPython",
@@ -30,6 +32,7 @@
         "mechatroner.rainbow-csv",
         "mhutchie.git-graph",
         "mrmlnc.vscode-less",
+        "ms-pyright.pyright",
         "ms-python.python",
         "ms-vscode-remote.remote-ssh",
         "ms-vscode-remote.remote-ssh-edit",
@@ -37,6 +40,7 @@
         "ms-vscode.cmake-tools",
         "ms-vscode.cpptools",
         "ms-vscode.csharp",
+        "ms-vsliveshare.vsliveshare",
         "pejmannikram.vscode-auto-scroll",
         "PKief.material-icon-theme",
         "qinjia.seti-icons",
@@ -46,6 +50,7 @@
         "skacekachna.win-opacity",
         "slevesque.vscode-hexdump",
         "stuart.unique-window-colors",
+        "syler.sass-indented",
         "twxs.cmake",
         "vector-of-bool.cmake-tools",
         "zxh404.vscode-proto3"
