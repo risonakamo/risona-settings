@@ -93,7 +93,7 @@
 
     "cmake.configureOnOpen": false,
 
-    "[typescriptreact]":{
+    "[typescriptreact]": {
         "editor.tabSize": 2
     },
 
@@ -290,11 +290,9 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Feel Better]": {
-            "editor.background":"#1e1e1e",
-            "editorGutter.background":"#1e1e1e",
-            "editor.lineHighlightBackground":"#1e1e1e",
-            "editor.lineHighlightBorder":"#282828"
+        "[Hybrid Next Plus]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e"
         }
     },
 
@@ -325,6 +323,6 @@
         // ]
     }
 
-    // "workbench.colorTheme": "Feel Better",
+    // "workbench.colorTheme": "Hybrid Next Plus",
     // "workbench.iconTheme": "material-icon-theme"
 }
