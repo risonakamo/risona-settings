@@ -246,5 +246,9 @@
     "[Pikachu Theme]": {
         "scrollbarSlider.activeBackground": "#fad000b3",
         "scrollbarSlider.hoverBackground": "#4f6880b3",
+    },
+    "[Hybrid Next Plus]": {
+        "editor.background": "#1e1e1e",
+        "editorGutter.background": "#1e1e1e"
     }
 }

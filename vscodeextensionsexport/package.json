@@ -6,6 +6,6 @@
     "lodash.union": "^4.6.0"
   },
   "scripts": {
-    "run":"node extensionsexport.js"
+    "run": "node extensionsexport.js"
   }
 }
