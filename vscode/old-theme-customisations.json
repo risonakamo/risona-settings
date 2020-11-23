@@ -245,6 +245,12 @@
     },
     "[Pikachu Theme]": {
         "scrollbarSlider.activeBackground": "#fad000b3",
-        "scrollbarSlider.hoverBackground": "#4f6880b3",
+        "scrollbarSlider.hoverBackground": "#4f6880b3"
+    },
+    "[Feel Better]": {
+        "editor.background":"#1e1e1e",
+        "editorGutter.background":"#1e1e1e",
+        "editor.lineHighlightBackground":"#1e1e1e",
+        "editor.lineHighlightBorder":"#282828"
     }
 }
