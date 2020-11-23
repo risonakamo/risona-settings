@@ -3,7 +3,7 @@ const fs=require("fs");
 const union=require("lodash.union");
 
 // --- CONFIGURATION ---
-const _vscodepath="C:/Users/ngokn1/Documents/other programs/vscode/bin/code";
+const _vscodepath="C:/Users/ktkm/Documents/otherprograms/vscode/bin/code";
 // --- END CONFIGURATION ---
 
 function main()
@@ -28,7 +28,7 @@ function getVsCodeExtensions(vscodepath)
 // ():string[]
 function getExtensionFile()
 {
-    if(!fs.existsSync("extensions.json"))
+    if (!fs.existsSync("extensions.json"))
     {
         return [];
     }

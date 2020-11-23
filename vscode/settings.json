@@ -78,7 +78,6 @@
     // "javascript.format.enable": false,
 
     "html.autoClosingTags": true,
-    "html.mirrorCursorOnMatchingTag": false,
 
     "python.disablePromptForFeatures": [
         "pylint"
@@ -270,12 +269,11 @@
     "winopacity.opacity": 240,
     "glassit.alpha":235,
 
-    "git-graph.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
-    "git-graph.commitDetailsViewLocation": "Docked to Bottom",
-    "git-graph.fetchAndPrune": true,
-    "git-graph.openRepoToHead": true,
+    "git-graph.commitDetailsView.location": "Docked to Bottom",
     "git-graph.repository.fetchAndPrune": true,
+    "git-graph.repository.onLoad.scrollToHead": true,
 
     "autoscroll.keepLastLineInCenter": false,
 
@@ -290,10 +288,6 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Hybrid Next Plus]": {
-            "editor.background": "#1e1e1e",
-            "editorGutter.background": "#1e1e1e"
-        }
     },
 
     "editor.tokenColorCustomizations":{
@@ -323,6 +317,6 @@
         // ]
     }
 
-    // "workbench.colorTheme": "Hybrid Next Plus",
+    // "workbench.colorTheme": "Chronotype: Midnight",
     // "workbench.iconTheme": "material-icon-theme"
 }
