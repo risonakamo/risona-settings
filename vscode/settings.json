@@ -50,6 +50,7 @@
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
     "http.proxyStrictSSL": false,
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
 
@@ -92,7 +93,7 @@
 
     "cmake.configureOnOpen": false,
 
-    "[typescriptreact]": {
+    "[typescriptreact]":{
         "editor.tabSize": 2
     },
 
@@ -288,6 +289,7 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
+
     },
 
     "editor.tokenColorCustomizations":{
@@ -317,6 +319,6 @@
         // ]
     }
 
-    // "workbench.colorTheme": "Chronotype: Midnight",
+    // "workbench.colorTheme": "Siemor Full Dark",
     // "workbench.iconTheme": "material-icon-theme"
 }
