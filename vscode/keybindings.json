@@ -10,10 +10,10 @@
 
     // folder/panes stuff
     { "key": "ctrl+x ctrl+c","command": "workbench.action.closeFolder" }, //close all (folder)
-    {"key":"ctrl+x 0","command":"workbench.action.closeEditorsInGroup"}, //kill pane
-    { "key": "ctrl+x k","command": "workbench.action.closeActiveEditor" }, //kill
     {"key":"ctrl+x o","command":"workbench.action.files.openFolder"}, //open folder
-    {"key":"ctrl+x ctrl+0","command":"workbench.action.closeAllEditors"}, //kill all panes
+    {"key": "ctrl+q","command": "workbench.action.closeActiveEditor"}, //kill
+    {"key":"ctrl+shift+q","command":"workbench.action.closeEditorsInGroup"}, //kill pane
+    {"key":"ctrl+alt+q","command":"workbench.action.closeAllEditors"}, //kill all panes
 
     // side bar control
     {"key":"ctrl+x ctrl+b","command":"workbench.action.toggleActivityBarVisibility"}, //hide side bar
@@ -42,7 +42,7 @@
     { "key": "ctrl+l","command": "workbench.action.showAllEditors"},
     { "key": "ctrl+alt+\\","command": "editor.action.jumpToBracket","when": "editorTextFocus" },
 
-    // pane/tab control
+    // pane/tab control 2
     {"key": "ctrl+tab","command": "workbench.action.navigateEditorGroups"},
     {"key": "ctrl+shift+\\","command": "workbench.action.splitEditorOrthogonal"},
     {"key": "ctrl+k ctrl+\\","command": "-workbench.action.splitEditorOrthogonal"},
