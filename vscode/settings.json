@@ -85,6 +85,8 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
     "css.completion.completePropertyWithSemicolon": false,
@@ -289,11 +291,14 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-
+        "[Siemor Full Dark]": {
+            "diffEditor.insertedTextBackground": "#76a3c333",
+            "diffEditor.removedTextBackground": "#bb6ea730"
+        }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -317,8 +322,8 @@
         //         }
         //     },
         // ]
-    }
+    },
 
-    // "workbench.colorTheme": "Siemor Full Dark",
-    // "workbench.iconTheme": "material-icon-theme"
+    "workbench.colorTheme": "Darcula Extended",
+    "workbench.iconTheme": "material-icon-theme"
 }
