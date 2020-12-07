@@ -3,7 +3,8 @@ const fs=require("fs");
 const union=require("lodash.union");
 
 // --- CONFIGURATION ---
-const _vscodepath="C:/Users/ktkm/Documents/otherprograms/vscode/bin/code";
+// give path to vscode's code.exe (doesnt actually have .exe though)
+const _vscodepath="C:/Users/ngokn1/Documents/other programs/vscode/bin/code";
 // --- END CONFIGURATION ---
 
 function main()
@@ -68,7 +69,7 @@ function outputExtensionsJson(extensions)
 {
     fs.writeFile("extensions.json",JSON.stringify({
         recommendations:extensions
-    },null,4),()=>{
+    },null,4),"utf8",()=>{
         console.log("exported extensions.json");
     });
 }
