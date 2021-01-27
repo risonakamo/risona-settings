@@ -1,4 +1,4 @@
-﻿// Place your settings in this file to overwrite the default settings
+// Place your settings in this file to overwrite the default settings
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
@@ -49,10 +49,10 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
-    "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
+    "http.proxyStrictSSL": false,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -85,7 +85,7 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
-    "python.languageServer": "Pylance",
+    // "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
@@ -291,14 +291,11 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Siemor Full Dark]": {
-            "diffEditor.insertedTextBackground": "#76a3c333",
-            "diffEditor.removedTextBackground": "#bb6ea730"
-        }
+
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
+        // "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -324,6 +321,6 @@
         // ]
     },
 
-    "workbench.colorTheme": "Darcula Extended",
+    "workbench.colorTheme": "Hackz Darker",
     "workbench.iconTheme": "material-icon-theme"
 }
