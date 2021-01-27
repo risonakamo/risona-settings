@@ -256,5 +256,17 @@
         "editorGutter.background":"#1e1e1e",
         "editor.lineHighlightBackground":"#1e1e1e",
         "editor.lineHighlightBorder":"#282828"
+    },
+    "[Siemor Full Dark]": {
+        "diffEditor.insertedTextBackground": "#76a3c333",
+        "diffEditor.removedTextBackground": "#bb6ea730"
+    },
+    "[Sakura]": {
+        "editor.selectionBackground": "#bd668850",
+    },
+    "[Ocean Space Italic]": {
+        "scrollbarSlider.background":"#1d213390",
+        "scrollbarSlider.hoverBackground": "#1d2133d0",
+        "scrollbarSlider.activeBackground": "#1d213380"
     }
 }
