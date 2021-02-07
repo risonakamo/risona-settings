@@ -2,7 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
-    // "terminal.external.windowsExec": "wt",
+    "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -49,10 +49,11 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
+    "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
-    "http.proxyStrictSSL": false,
+    "editor.scrollbar.verticalScrollbarSize":30,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -85,7 +86,6 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
-    // "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
@@ -295,7 +295,7 @@
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -321,6 +321,6 @@
         // ]
     },
 
-    "workbench.colorTheme": "Hackz Darker",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Sakura"
 }
