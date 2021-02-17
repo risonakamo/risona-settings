@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "aaron-bond.better-comments",
         "adammaras.overtype",
         "afpro.tfcomplete",
         "alefragnani.Bookmarks",
@@ -14,6 +15,7 @@
         "CoenraadS.bracket-pair-colorizer",
         "CoenraadS.bracket-pair-colorizer-2",
         "donjayamanne.githistory",
+        "eamodio.gitlens",
         "equinusocio.vsc-material-theme-icons",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
@@ -35,6 +37,7 @@
         "mechatroner.rainbow-csv",
         "mhutchie.git-graph",
         "michelemelluso.code-beautifier",
+        "mikestead.dotenv",
         "mrmlnc.vscode-duplicate",
         "mrmlnc.vscode-less",
         "ms-pyright.pyright",
