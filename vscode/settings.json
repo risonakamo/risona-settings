@@ -2,7 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
-    "terminal.external.windowsExec": "wt",
+    // "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -39,7 +39,6 @@
     "files.autoSave": "off",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
-    "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "markdown.preview.doubleClickToSwitchToEditor": false,
@@ -49,11 +48,13 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
-    "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
-    "editor.scrollbar.verticalScrollbarSize":30,
+    "http.proxyStrictSSL": false,
+    "editor.scrollbar.verticalScrollbarSize": 25,
+    "editor.renderIndentGuides": false,
+    "editor.multiCursorModifier": "ctrlCmd",
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -86,6 +87,7 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
+    // "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
@@ -167,6 +169,9 @@
     },
 
     "material-icon-theme.hidesExplorerArrows": false,
+    "material-icon-theme.files.associations": {
+        "*.m":"matlab"
+    },
 
     "csharp.referencesCodeLens.enabled": false,
     "csharp.testsCodeLens.enabled": false,
@@ -278,6 +283,12 @@
     "git-graph.repository.fetchAndPrune": true,
     "git-graph.repository.onLoad.scrollToHead": true,
 
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.keymap": "none",
+    "gitlens.hovers.enabled": false,
+
     "autoscroll.keepLastLineInCenter": false,
 
     "remote.SSH.remotePlatform": {
@@ -291,11 +302,14 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-
+        "[Hackz Darker]": {
+            "diffEditor.insertedTextBackground": "#3cff0028",
+            "diffEditor.removedTextBackground": "#fc000038",
+        }
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
+        // "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -321,6 +335,6 @@
         // ]
     },
 
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Sakura"
+    "workbench.colorTheme": "Nordico",
+    "workbench.iconTheme": "material-icon-theme"
 }
