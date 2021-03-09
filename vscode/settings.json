@@ -2,7 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
-    // "terminal.external.windowsExec": "wt",
+    "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -39,6 +39,7 @@
     "files.autoSave": "off",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "markdown.preview.doubleClickToSwitchToEditor": false,
@@ -48,13 +49,13 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
+    "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
-    "http.proxyStrictSSL": false,
-    "editor.scrollbar.verticalScrollbarSize": 25,
-    "editor.renderIndentGuides": false,
+    "editor.scrollbar.verticalScrollbarSize":30,
     "editor.multiCursorModifier": "ctrlCmd",
+    "git.ignoreLegacyWarning": true,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -87,8 +88,6 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
-    // "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
     "css.completion.completePropertyWithSemicolon": false,
@@ -100,6 +99,13 @@
     "[typescriptreact]":{
         "editor.tabSize": 2
     },
+
+    "rust-analyzer.completion.addCallParenthesis": false,
+    "rust-analyzer.completion.addCallArgumentSnippets": false,
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.completion.autoimport.enable": false,
+    "rust-analyzer.lens.debug": false,
+    "rust-analyzer.lens.enable": false,
 
     /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
@@ -295,16 +301,18 @@
         "yoshi": "linux",
         "fox": "linux",
         "sonic": "linux",
-        "mallard": "linux"
+        "mallard": "linux",
+        "absaroka.jhuep.com": "linux"
     },
 
     "auto-close-tag.SublimeText3Mode": true,
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Hackz Darker]": {
-            "diffEditor.insertedTextBackground": "#3cff0028",
-            "diffEditor.removedTextBackground": "#fc000038",
+        "[NewRailscasts]": {
+            "scrollbarSlider.background": "#340e4e66",
+            "scrollbarSlider.hoverBackground": "#40125f66",
+            "scrollbarSlider.activeBackground": "#50187a66",
         }
     },
 
@@ -335,6 +343,7 @@
         // ]
     },
 
-    "workbench.colorTheme": "Nordico",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "NewRailscasts",
+    "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2"
 }
