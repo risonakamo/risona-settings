@@ -2,7 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     "terminal.integrated.allowChords": false,
-    "terminal.external.windowsExec": "wt",
+    // "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
@@ -41,6 +41,7 @@
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -90,6 +91,8 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
+    // "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
 
     "css.lint.emptyRules": "ignore",
     "css.completion.completePropertyWithSemicolon": false,
@@ -284,6 +287,7 @@
 
     "winopacity.opacity": 240,
     "glassit.alpha":235,
+    // "glassit.alpha":255,
 
     "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -296,6 +300,8 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.keymap": "none",
     "gitlens.hovers.enabled": false,
+    "gitlens.views.remotes.files.layout": "tree",
+    "gitlens.sortBranchesBy": "date:desc",
 
     "autoscroll.keepLastLineInCenter": false,
 
@@ -303,28 +309,29 @@
         "yoshi": "linux",
         "fox": "linux",
         "sonic": "linux",
-        "mallard": "linux",
-        "absaroka.jhuep.com": "linux"
+        "mallard": "linux"
     },
-    "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
     "auto-close-tag.SublimeText3Mode": true,
 
-    "colorize.colorized_variables": [
-        "LESS"
-    ],
-
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Yaru Dark Pumpkin]": {
-            "scrollbarSlider.background": "#34343466",
-            "scrollbarSlider.hoverBackground": "#64646466",
-            "scrollbarSlider.activeBackground": "#c2c2c266",
+        "[Badjoras]": {
+            "titleBar.activeForeground": "#e7e7e7",
+            "editorLineNumber.foreground": "#858585"
         }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        // "comments":"#608b4e",
+        // "textMateRules": [
+        //     {
+        //         "scope":"string.quoted.docstring.multi.python",
+        //         "settings": {
+        //             "foreground": "#608b4e" //change to your preference
+        //         }
+        //     }
+        // ]
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -349,7 +356,6 @@
         //     },
         // ]
     },
-
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Yaru Dark Pumpkin"
+    "workbench.colorTheme": "Badjoras"
 }
