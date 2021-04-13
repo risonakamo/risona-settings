@@ -56,6 +56,7 @@
     {"key": "ctrl+x c","command": "merge-conflict.compare"},
     {"key": "ctrl+g","command": "git-graph.fetch"},
     {"key":"ctrl+alt+g","command":"workbench.view.extension.gitlens"},
+    {"key": "ctrl+m","command": "editor.action.toggleMinimap"},
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},

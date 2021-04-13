@@ -268,5 +268,38 @@
         "scrollbarSlider.background":"#1d213390",
         "scrollbarSlider.hoverBackground": "#1d2133d0",
         "scrollbarSlider.activeBackground": "#1d213380"
+    },
+    "[Firefox Dark]": {
+        "scrollbarSlider.activeBackground": "#737373cc",
+        "scrollbarSlider.hoverBackground": "#7373738c",
+    },
+    "[Material Gecko]": {
+        "diffEditor.insertedTextBorder": "#00ff0000",
+        "diffEditor.removedTextBorder": "#ff000d00",
+    },
+    "[Yaru Dark Pumpkin]": {
+        "scrollbarSlider.background": "#34343466",
+        "scrollbarSlider.hoverBackground": "#64646466",
+        "scrollbarSlider.activeBackground": "#c2c2c266",
+    },
+    "[Hackz Darker]": {
+        "diffEditor.insertedTextBackground": "#3cff0028",
+        "diffEditor.removedTextBackground": "#fc000038"
+    },
+    "[Community Material Theme Palenight]": {
+        "scrollbarSlider.activeBackground": "#80cbc450"
+    },
+    "[Neon Chalk]": {
+        "scrollbarSlider.background": "#4444444d",
+        "scrollbarSlider.hoverBackground": "#44444480",
+        "scrollbarSlider.activeBackground": "#44444499"
+    },
+    "[Yaru Dark]": {
+        "scrollbarSlider.activeBackground": "#c2c2c24D",
+        "scrollbarSlider.hoverBackground": "#6464644D",
+        "scrollbarSlider.background": "#34343499"
+    },
+    "[Monokai Crete]": {
+        "editor.background": "#1e1e1e"
     }
 }

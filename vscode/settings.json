@@ -39,8 +39,9 @@
     "files.autoSave": "off",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -48,13 +49,16 @@
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
+    "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
-    "http.proxyStrictSSL": false,
-    "editor.scrollbar.verticalScrollbarSize": 25,
-    "editor.renderIndentGuides": false,
+    "editor.scrollbar.verticalScrollbarSize":30,
     "editor.multiCursorModifier": "ctrlCmd",
+    "git.ignoreLegacyWarning": true,
+    "editor.rulers": [
+        110
+    ],
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -100,6 +104,13 @@
     "[typescriptreact]":{
         "editor.tabSize": 2
     },
+
+    "rust-analyzer.completion.addCallParenthesis": false,
+    "rust-analyzer.completion.addCallArgumentSnippets": false,
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.completion.autoimport.enable": false,
+    "rust-analyzer.lens.debug": false,
+    "rust-analyzer.lens.enable": false,
 
     /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
@@ -276,6 +287,7 @@
 
     "winopacity.opacity": 240,
     "glassit.alpha":235,
+    // "glassit.alpha":255,
 
     "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
@@ -288,6 +300,8 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.keymap": "none",
     "gitlens.hovers.enabled": false,
+    "gitlens.views.remotes.files.layout": "tree",
+    "gitlens.sortBranchesBy": "date:desc",
 
     "autoscroll.keepLastLineInCenter": false,
 
@@ -302,14 +316,22 @@
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Hackz Darker]": {
-            "diffEditor.insertedTextBackground": "#3cff0028",
-            "diffEditor.removedTextBackground": "#fc000038",
+        "[Badjoras]": {
+            "titleBar.activeForeground": "#e7e7e7",
+            "editorLineNumber.foreground": "#858585"
         }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e"
+        // "comments":"#608b4e",
+        // "textMateRules": [
+        //     {
+        //         "scope":"string.quoted.docstring.multi.python",
+        //         "settings": {
+        //             "foreground": "#608b4e" //change to your preference
+        //         }
+        //     }
+        // ]
         // "textMateRules": [
         //     {
         //         "scope": "comment",
@@ -334,7 +356,6 @@
         //     },
         // ]
     },
-
-    "workbench.colorTheme": "Nordico",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Badjoras"
 }

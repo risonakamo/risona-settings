@@ -4,7 +4,7 @@ const union=require("lodash.union");
 
 // --- CONFIGURATION ---
 // give path to vscode's code.exe (doesnt actually have .exe though)
-const _vscodepath="C:/Users/ngokn1/Documents/other programs/vscode/bin/code";
+const _vscodepath="C:/Users/ktkm/Documents/otherprograms/vscode/bin/code";
 // --- END CONFIGURATION ---
 
 function main()
