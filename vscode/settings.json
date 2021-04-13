@@ -41,7 +41,6 @@
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": false,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -56,6 +55,9 @@
     "editor.scrollbar.verticalScrollbarSize":30,
     "editor.multiCursorModifier": "ctrlCmd",
     "git.ignoreLegacyWarning": true,
+    "editor.rulers": [
+        110
+    ],
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
@@ -304,15 +306,20 @@
         "mallard": "linux",
         "absaroka.jhuep.com": "linux"
     },
+    "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
     "auto-close-tag.SublimeText3Mode": true,
 
+    "colorize.colorized_variables": [
+        "LESS"
+    ],
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[NewRailscasts]": {
-            "scrollbarSlider.background": "#340e4e66",
-            "scrollbarSlider.hoverBackground": "#40125f66",
-            "scrollbarSlider.activeBackground": "#50187a66",
+        "[Yaru Dark Pumpkin]": {
+            "scrollbarSlider.background": "#34343466",
+            "scrollbarSlider.hoverBackground": "#64646466",
+            "scrollbarSlider.activeBackground": "#c2c2c266",
         }
     },
 
@@ -344,6 +351,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "NewRailscasts",
-    "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2"
+    "workbench.colorTheme": "Yaru Dark Pumpkin"
 }

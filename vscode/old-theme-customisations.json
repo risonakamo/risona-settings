@@ -276,5 +276,10 @@
     "[Material Gecko]": {
         "diffEditor.insertedTextBorder": "#00ff0000",
         "diffEditor.removedTextBorder": "#ff000d00",
+    },
+    "[Yaru Dark Pumpkin]": {
+        "scrollbarSlider.background": "#34343466",
+        "scrollbarSlider.hoverBackground": "#64646466",
+        "scrollbarSlider.activeBackground": "#c2c2c266",
     }
 }
