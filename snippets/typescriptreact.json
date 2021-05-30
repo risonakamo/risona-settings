@@ -1,0 +1,21 @@
+{
+	"react component":{
+		"prefix":"nrc",
+		"body":[
+			"import React from \"react\";",
+			"",
+			"import \"./$TM_FILENAME_BASE.less\";",
+			"",
+			"interface ${ComponentName}Props",
+			"{",
+			"",
+			"}",
+			"",
+			"export default function ${ComponentName}(props:${ComponentName}Props):JSX.Element",
+			"{",
+			"  return ${componentHTML};",
+			"}"
+		],
+		"description":"template for new react component",
+	}
+}
