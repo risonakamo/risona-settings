@@ -57,6 +57,8 @@
     {"key": "ctrl+g","command": "git-graph.fetch"},
     {"key":"ctrl+alt+g","command":"workbench.view.extension.gitlens"},
     {"key": "ctrl+m","command": "editor.action.toggleMinimap"},
+    {"key":"ctrl+shift+k","command":"bookmarksExplorer.focus"},
+    {"key": "ctrl+shift+l","command": "bookmarks.list"},
 
     //terminals page key navs
     {"key":"ctrl+pagedown","command":"workbench.action.terminal.focusNext","when":"terminalFocus"},

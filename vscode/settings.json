@@ -25,18 +25,13 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "extensions.ignoreRecommendations": true,
-    // "workbench.welcome.enabled": false, //old vscode (1.12?)
-    // "window.reopenFolders": "none"
-    "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
     "editor.parameterHints.enabled": false,
     "breadcrumbs.enabled": true,
     "search.useIgnoreFiles": false,
     "editor.autoClosingQuotes": "never",
-    "workbench.activityBar.visible": false,
     "editor.find.seedSearchStringFromSelection": false,
-    "files.autoSave": "off",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
@@ -91,8 +86,8 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
-    // "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
+    "python.languageServer": "Microsoft",
 
     "css.lint.emptyRules": "ignore",
     "css.completion.completePropertyWithSemicolon": false,
@@ -111,6 +106,10 @@
     "rust-analyzer.completion.autoimport.enable": false,
     "rust-analyzer.lens.debug": false,
     "rust-analyzer.lens.enable": false,
+
+    "files.associations": {
+        "**/*.txt":"coffeescript"
+    },
 
     /*-------- EXTENSION SETTINGS --------*/
     "minify.html": {
@@ -309,7 +308,14 @@
         "yoshi": "linux",
         "fox": "linux",
         "sonic": "linux",
-        "mallard": "linux"
+        "mallard": "linux",
+        "bowser": "linux",
+        "absaroka.jhuep.com": "linux",
+        "darpa-ace-2": "linux",
+        "darpa-ace-1": "linux",
+        "darpa-ace-3": "linux",
+        "falco": "linux",
+        "afxmclc": "linux"
     },
 
     "auto-close-tag.SublimeText3Mode": true,
@@ -319,11 +325,29 @@
         "[Badjoras]": {
             "titleBar.activeForeground": "#e7e7e7",
             "editorLineNumber.foreground": "#858585"
+        },
+        "[Cold Snack]": {
+            "scrollbarSlider.activeBackground": "#027ddb66",
+            "scrollbarSlider.hoverBackground": "#027ddb50",
+            "editor.background": "#1e1e1e",
+            "editorLineNumber.foreground": "#858585",
+            "editorGroupHeader.tabsBackground": "#252526",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.border": "#252526",
+            "editor.lineHighlightBackground": "#0a2c4f5d",
+        },
+        "[Fresh Material - Indigo]": {
+            "diffEditor.insertedTextBorder": "#39ca7400",
+            "diffEditor.removedTextBorder": "#39ca7400",
+            "tab.activeBackground": "#5d6dbebf",
+            "editorBracketMatch.background": "#558eff4d",
+            "peekViewEditorGutter.background": "#1e1f29",
+            "peekViewResult.fileForeground": "#ffffff90",
         }
     },
 
     "editor.tokenColorCustomizations":{
-        // "comments":"#608b4e",
+        "comments":"#608b4e",
         // "textMateRules": [
         //     {
         //         "scope":"string.quoted.docstring.multi.python",
@@ -357,5 +381,5 @@
         // ]
     },
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Badjoras"
+    "workbench.colorTheme": "Rainier - Shadow"
 }
