@@ -54,6 +54,7 @@
     "editor.rulers": [
         110
     ],
+    "workbench.activityBar.visible": false,
 
     /*-------- LANGUAGE SETTINGS --------*/
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
