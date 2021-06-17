@@ -301,5 +301,27 @@
     },
     "[Monokai Crete]": {
         "editor.background": "#1e1e1e"
+    },
+    "[Badjoras]": {
+        "titleBar.activeForeground": "#e7e7e7",
+        "editorLineNumber.foreground": "#858585"
+    },
+    "[Cold Snack]": {
+        "scrollbarSlider.activeBackground": "#027ddb66",
+        "scrollbarSlider.hoverBackground": "#027ddb50",
+        "editor.background": "#1e1e1e",
+        "editorLineNumber.foreground": "#858585",
+        "editorGroupHeader.tabsBackground": "#252526",
+        "tab.inactiveBackground": "#2d2d2d",
+        "tab.border": "#252526",
+        "editor.lineHighlightBackground": "#0a2c4f5d",
+    },
+    "[Fresh Material - Indigo]": {
+        "diffEditor.insertedTextBorder": "#39ca7400",
+        "diffEditor.removedTextBorder": "#39ca7400",
+        "tab.activeBackground": "#5d6dbebf",
+        "editorBracketMatch.background": "#558eff4d",
+        "peekViewEditorGutter.background": "#1e1f29",
+        "peekViewResult.fileForeground": "#ffffff90",
     }
 }
