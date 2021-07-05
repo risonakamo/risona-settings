@@ -331,7 +331,7 @@
         "falco": "linux",
         "afxmclc": "linux"
     },
-    // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
+    "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
     "auto-close-tag.SublimeText3Mode": true,
 
@@ -342,6 +342,7 @@
     "colorize.languages": [
         "less","typescript"
     ],
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
         "[Everforest Dark]": {
@@ -385,6 +386,7 @@
         //     },
         // ]
     },
+
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Everforest Dark"
 }
