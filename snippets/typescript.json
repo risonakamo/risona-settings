@@ -1,5 +1,5 @@
 {
-	// Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
 	// same ids are connected.
@@ -12,25 +12,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"react component":{
-		"prefix":"nrc",
-		"body":[
-			"import React from \"react\";",
-			"",
-			"import \"./$TM_FILENAME_BASE.less\";",
-			"",
-			"interface ${ComponentName}Props",
-			"{",
-			"",
-			"}",
-			"",
-			"export default function ${ComponentName}(props:${ComponentName}Props):JSX.Element",
-			"{",
-			"  return ${componentHTML};",
-			"}"
-		],
-		"description":"template for new react component",
-	},
+
 	"doc_comment":{
 		"prefix":"docc",
 		"body":[

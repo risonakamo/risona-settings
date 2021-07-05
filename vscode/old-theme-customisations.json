@@ -323,5 +323,20 @@
         "editorBracketMatch.background": "#558eff4d",
         "peekViewEditorGutter.background": "#1e1f29",
         "peekViewResult.fileForeground": "#ffffff90",
-    }
+    },
+    "[September Steel - 2021]": {
+        "editor.background": "#1e1e1e"
+    },
+    "[Dainty – Material Theme Palenight (chroma 0, lightness 2)]": {
+        "editorGutter.addedBackground": "#9bb955",
+        "editorGutter.modifiedBackground": "#4e94ce",
+        "editorGutter.deletedBackground": "#c33e54"
+    },
+    "[Lucario]": {
+        "editor.background": "#1e1e1e",
+        "editorRuler.foreground": "#5a5a5a",
+        "editor.lineHighlightBorder": "#282828",
+        "editor.selectionBackground": "#264f78",
+        "editorOverviewRuler.border": "#7f7f7f4d",
+    },
 }

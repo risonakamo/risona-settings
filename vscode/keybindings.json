@@ -7,6 +7,11 @@
     // clipboard/editing
     { "key": "ctrl+w","command": "editor.action.clipboardCutAction"}, //cut
     {"key":"ctrl+shift+backspace","command":"editor.action.deleteLines"}, //delete whole line
+    {
+        "key":"ctrl+shift+/",
+        "command":"editor.action.insertSnippet",
+        "args":{"name":"doc_comment"}
+    },
 
     // folder/panes stuff
     { "key": "ctrl+x ctrl+c","command": "workbench.action.closeFolder" }, //close all (folder)
