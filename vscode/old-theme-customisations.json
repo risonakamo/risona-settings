@@ -339,4 +339,28 @@
         "editor.selectionBackground": "#264f78",
         "editorOverviewRuler.border": "#7f7f7f4d",
     },
+    "[Everforest Dark]": {
+        "editor.background": "#1e1e1e",
+        "scrollbarSlider.activeBackground": "#999f9366",
+        "scrollbarSlider.hoverBackground": "#525c6250",
+    },
+    "[Ayu Next]": {
+        "editor.background": "#1e1e1e",
+        "scrollbarSlider.activeBackground": "#707a8c66",
+    },
+    "[Code Blue]": {
+        "editor.background": "#1e1e1e",
+        "editorGutter.background":"#1e1e1e",
+    },
+    "[Desert Lights Italic]": {
+        "diffEditor.insertedTextBackground": "#95e6cb20",
+        "diffEditor.removedTextBackground": "#f5617420",
+    },
+    "[Dark Purple - Webstorm]": {
+        "editor.background": "#1e1e1e",
+        "editorGutter.background":"#1e1e1e",
+    },
+    "[Night Coder Italic]": {
+        "scrollbarSlider.activeBackground": "#00660066",
+    }
 }

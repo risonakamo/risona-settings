@@ -25,9 +25,6 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "extensions.ignoreRecommendations": true,
-    // "workbench.welcome.enabled": false, //old vscode (1.12?)
-    // "window.reopenFolders": "none"
-    "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
     "editor.parameterHints.enabled": false,
@@ -36,12 +33,11 @@
     "editor.autoClosingQuotes": "never",
     "workbench.activityBar.visible": false,
     "editor.find.seedSearchStringFromSelection": false,
-    "files.autoSave": "off",
+    "files.autoSave": "afterDelay",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -59,8 +55,11 @@
     "editor.rulers": [
         110
     ],
+    "security.workspace.trust.enabled": false,
+
 
     /*-------- LANGUAGE SETTINGS --------*/
+    // js/ts
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
     "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
     "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
@@ -82,10 +81,12 @@
     "javascript.suggest.autoImports": false,
     "typescript.suggest.autoImports": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
-    // "javascript.format.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
 
+    // html
     "html.autoClosingTags": true,
 
+    // python
     "python.disablePromptForFeatures": [
         "pylint"
     ],
@@ -96,17 +97,20 @@
     "python.analysis.autoImportCompletions": false,
     "jupyter.askForKernelRestart": false,
 
+    // css/less
     "css.lint.emptyRules": "ignore",
     "css.completion.completePropertyWithSemicolon": false,
     "less.completion.completePropertyWithSemicolon": false,
     "less.lint.emptyRules": "ignore",
 
+    // cmake
     "cmake.configureOnOpen": false,
 
     "[typescriptreact]":{
         "editor.tabSize": 2
     },
 
+    // rust
     "rust-analyzer.completion.addCallParenthesis": false,
     "rust-analyzer.completion.addCallArgumentSnippets": false,
     "rust-analyzer.inlayHints.enable": false,
@@ -114,18 +118,18 @@
     "rust-analyzer.lens.debug": false,
     "rust-analyzer.lens.enable": false,
 
+    // other file associations
     "files.associations": {
         "**/*.txt":"coffeescript"
     },
 
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+
 
     /*-------- EXTENSION SETTINGS --------*/
+    // minifier
     "minify.html": {
         "caseSensitive": true,
         "collapseBooleanAttributes": true,
@@ -192,23 +196,24 @@
         "shorthandCompacting": true
     },
 
+    // material icon theme
     "material-icon-theme.hidesExplorerArrows": false,
     "material-icon-theme.files.associations": {
         "*.m":"matlab"
     },
 
+    // csharp
     "csharp.referencesCodeLens.enabled": false,
     "csharp.testsCodeLens.enabled": false,
     "omnisharp.autoStart": false,
     "csharp.suppressDotnetInstallWarning": true,
+    "omnisharp.useGlobalMono": "always",
+    "omnisharp.path": "latest",
 
+    // bracket colouriser 2
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
     "bracket-pair-colorizer-2.showVerticalScopeLine": false,
     "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
-
-    "bracketPairColorizer.showHorizontalScopeLine": false,
-    "bracketPairColorizer.showVerticalScopeLine": false,
-    "bracketPairColorizer.excludedLanguages":["markdown"],
 
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
@@ -295,19 +300,28 @@
         "red"
     ],
 
+    // bracket colouriser 1
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "bracketPairColorizer.excludedLanguages":["markdown"],
+
+    // spellright
     "spellright.notificationClass":"error",
     "spellright.documentTypes": [],
 
+    // opacity
     "winopacity.opacity": 240,
     "glassit.alpha":235,
     // "glassit.alpha":255,
 
+    // git graph
     "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
     "git-graph.showStatusBarItem": false,
     "git-graph.commitDetailsView.location": "Docked to Bottom",
     "git-graph.repository.fetchAndPrune": true,
     "git-graph.repository.onLoad.scrollToHead": true,
 
+    // git lens
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
@@ -316,8 +330,10 @@
     "gitlens.views.remotes.files.layout": "tree",
     "gitlens.sortBranchesBy": "date:desc",
 
+    // auto scroll to bottom
     "autoscroll.keepLastLineInCenter": false,
 
+    // vscode remote
     "remote.SSH.remotePlatform": {
         "yoshi": "linux",
         "fox": "linux",
@@ -329,12 +345,15 @@
         "darpa-ace-1": "linux",
         "darpa-ace-3": "linux",
         "falco": "linux",
-        "afxmclc": "linux"
+        "afxmclc": "linux",
+        "jigglypuff": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
+    // autoclose tag
     "auto-close-tag.SublimeText3Mode": true,
 
+    // colourised variables
     "colorize.colorized_variables": [
         "LESS"
     ],
@@ -342,13 +361,20 @@
     "colorize.languages": [
         "less","typescript"
     ],
+
+    // tab nine
+    "tabnine.experimentalAutoImports": true,
+
+    // jupyter
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[Everforest Dark]": {
-            "editor.background": "#1e1e1e",
-            "scrollbarSlider.activeBackground": "#999f9366",
-            "scrollbarSlider.hoverBackground": "#525c6250",
-        }
+
     },
 
     "editor.tokenColorCustomizations":{
@@ -385,6 +411,7 @@
         //     },
         // ]
     },
+
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Everforest Dark"
+    "workbench.colorTheme": "seti"
 }
