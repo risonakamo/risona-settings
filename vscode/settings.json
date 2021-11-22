@@ -12,7 +12,6 @@
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
@@ -57,6 +56,18 @@
     ],
     "security.workspace.trust.enabled": false,
 
+    "terminal.integrated.defaultProfile.windows":"Command Prompt",
+    "terminal.integrated.profiles.windows":{
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        }
+    },
+
 
     /*-------- LANGUAGE SETTINGS --------*/
     // js/ts
@@ -93,7 +104,7 @@
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
     "python.analysis.typeCheckingMode": "basic",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "python.analysis.autoImportCompletions": false,
     "jupyter.askForKernelRestart": false,
 
@@ -371,10 +382,35 @@
         "jupyter-notebook": "left"
     },
 
+    // markdown pdf
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.margin.left": "2cm",
+    "markdown-pdf.margin.bottom": "2cm",
+    "markdown-pdf.margin.right": "2cm",
+    "markdown-pdf.margin.top": "2cm",
+    "markdown-pdf.highlightStyle": "a11y-dark.css",
+
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-
+        "[seti]": {
+            "editor.lineHighlightBorder": "#282828",
+        },
+        "[Gruvbox Minor Dark Hard]": {
+            "scrollbarSlider.activeBackground": "#d7992140",
+            "scrollbarSlider.hoverBackground": "#665c5450",
+            "tab.activeBorder": "#d79921",
+            "tab.unfocusedActiveBorder": "#d7992140",
+        },
+        "[Deep Purple]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background":"#1e1e1e",
+            "breadcrumb.background": "#1e1e1e",
+            "window.activeBorder": "#bf7fff00",
+            "editor.hoverHighlightBackground": "#264f7840",
+            "editor.symbolHighlightBackground": "#ea5c0055",
+            "editor.wordHighlightBackground": "#575757b8",
+        }
     },
 
     "editor.tokenColorCustomizations":{
@@ -413,5 +449,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "seti"
+    "workbench.colorTheme": "Ayu Dark"
 }
