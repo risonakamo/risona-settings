@@ -1,6 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     /*-------- EDITOR SETTINGS --------*/
+    // core vscode settings
     "terminal.integrated.allowChords": false,
     "terminal.external.windowsExec": "wt",
     "editor.autoClosingBrackets": "never",
@@ -12,7 +13,6 @@
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
-    "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -24,19 +24,20 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3'",
+    "editor.fontFamily": "Consolas",
     "editor.parameterHints.enabled": false,
     "breadcrumbs.enabled": true,
     "search.useIgnoreFiles": false,
     "editor.autoClosingQuotes": "never",
     "workbench.activityBar.visible": false,
-    "editor.find.seedSearchStringFromSelection": false,
-    "files.autoSave": "afterDelay",
+    "editor.find.seedSearchStringFromSelection": "never",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -55,7 +56,8 @@
         110
     ],
     "security.workspace.trust.enabled": false,
-
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
     "terminal.integrated.profiles.windows":{
         "Command Prompt": {
@@ -69,8 +71,11 @@
     },
 
 
+
+
     /*-------- LANGUAGE SETTINGS --------*/
-    // js/ts
+    // core vscode settings affecting code languages
+    // ts/js
     "typescript.format.insertSpaceAfterCommaDelimiter": false,
     "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
     "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
@@ -92,6 +97,10 @@
     "javascript.suggest.autoImports": false,
     "typescript.suggest.autoImports": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
+    // "javascript.format.enable": false,
+    "[typescriptreact]":{
+        "editor.tabSize": 2
+    },
     "javascript.updateImportsOnFileMove.enabled": "never",
 
     // html
@@ -117,10 +126,6 @@
     // cmake
     "cmake.configureOnOpen": false,
 
-    "[typescriptreact]":{
-        "editor.tabSize": 2
-    },
-
     // rust
     "rust-analyzer.completion.addCallParenthesis": false,
     "rust-analyzer.completion.addCallArgumentSnippets": false,
@@ -129,17 +134,27 @@
     "rust-analyzer.lens.debug": false,
     "rust-analyzer.lens.enable": false,
 
-    // other file associations
+    // other files
     "files.associations": {
         "**/*.txt":"coffeescript"
     },
-
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
 
+    // svelte
+    "[svelte]": {
+        "editor.tabSize": 2
+    },
+    "svelte.plugin.svelte.rename.enable": false,
+    "svelte.plugin.svelte.format.enable": false,
+    "svelte.enable-ts-plugin": true,
+
+
+
 
     /*-------- EXTENSION SETTINGS --------*/
+    // settings for extensions
     // minifier
     "minify.html": {
         "caseSensitive": true,
@@ -226,6 +241,10 @@
     "bracket-pair-colorizer-2.showVerticalScopeLine": false,
     "bracket-pair-colorizer-2.excludedLanguages":["markdown"],
 
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "bracketPairColorizer.excludedLanguages":["markdown"],
+
     // "bracket-pair-colorizer-2.colors":[
     //     "#d4d4d4",
     //     // "#d4d4d4",
@@ -311,11 +330,6 @@
         "red"
     ],
 
-    // bracket colouriser 1
-    "bracketPairColorizer.showHorizontalScopeLine": false,
-    "bracketPairColorizer.showVerticalScopeLine": false,
-    "bracketPairColorizer.excludedLanguages":["markdown"],
-
     // spellright
     "spellright.notificationClass":"error",
     "spellright.documentTypes": [],
@@ -373,6 +387,8 @@
         "less","typescript"
     ],
 
+    "markdown-pdf.breaks":true,
+
     // tab nine
     "tabnine.experimentalAutoImports": true,
 
@@ -391,30 +407,20 @@
     "markdown-pdf.highlightStyle": "a11y-dark.css",
 
 
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        "[seti]": {
-            "editor.lineHighlightBorder": "#282828",
-        },
-        "[Gruvbox Minor Dark Hard]": {
-            "scrollbarSlider.activeBackground": "#d7992140",
-            "scrollbarSlider.hoverBackground": "#665c5450",
-            "tab.activeBorder": "#d79921",
-            "tab.unfocusedActiveBorder": "#d7992140",
-        },
-        "[Deep Purple]": {
-            "editor.background": "#1e1e1e",
-            "editorGutter.background":"#1e1e1e",
-            "breadcrumb.background": "#1e1e1e",
-            "window.activeBorder": "#bf7fff00",
-            "editor.hoverHighlightBackground": "#264f7840",
-            "editor.symbolHighlightBackground": "#ea5c0055",
-            "editor.wordHighlightBackground": "#575757b8",
-        }
+        "editorBracketHighlight.foreground1":"#d4d4d4",
+        "editorBracketHighlight.foreground2":"#4da7bb",
+        "editorBracketHighlight.foreground3":"#f7c627",
+        "editorBracketHighlight.foreground4":"#93a957",
+        "editorBracketHighlight.foreground5":"#5e47d0",
+        "editorBracketHighlight.foreground6":"#a9895f",
+        "editorBracketHighlight.unexpectedBracket.foreground":"#d61431"
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e",
+        "comments":"#608b4e"
         // "textMateRules": [
         //     {
         //         "scope":"string.quoted.docstring.multi.python",

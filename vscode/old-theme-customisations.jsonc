@@ -362,5 +362,23 @@
     },
     "[Night Coder Italic]": {
         "scrollbarSlider.activeBackground": "#00660066",
+    },
+    "[seti]": {
+        "editor.lineHighlightBorder": "#282828",
+    },
+    "[Gruvbox Minor Dark Hard]": {
+        "scrollbarSlider.activeBackground": "#d7992140",
+        "scrollbarSlider.hoverBackground": "#665c5450",
+        "tab.activeBorder": "#d79921",
+        "tab.unfocusedActiveBorder": "#d7992140",
+    },
+    "[Deep Purple]": {
+        "editor.background": "#1e1e1e",
+        "editorGutter.background":"#1e1e1e",
+        "breadcrumb.background": "#1e1e1e",
+        "window.activeBorder": "#bf7fff00",
+        "editor.hoverHighlightBackground": "#264f7840",
+        "editor.symbolHighlightBackground": "#ea5c0055",
+        "editor.wordHighlightBackground": "#575757b8",
     }
 }
