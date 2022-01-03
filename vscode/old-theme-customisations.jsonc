@@ -380,5 +380,15 @@
         "editor.hoverHighlightBackground": "#264f7840",
         "editor.symbolHighlightBackground": "#ea5c0055",
         "editor.wordHighlightBackground": "#575757b8",
+    },
+    "[LubnaDev]": {
+        "editor.lineHighlightBackground": "#ffffff0a",
+        "editor.foreground": "#ffffff",
+        "tab.activeBorder": "#d79921",
+    },
+    "[Adwaita Base16]": {
+        "scrollbarSlider.activeBackground": "#215d9c80",
+        "scrollbarSlider.hoverBackground": "#c0c0c060",
+        "tab.activeBorder": "#d79921",
     }
 }

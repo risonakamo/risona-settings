@@ -122,6 +122,7 @@
     "css.completion.completePropertyWithSemicolon": false,
     "less.completion.completePropertyWithSemicolon": false,
     "less.lint.emptyRules": "ignore",
+    "python.formatting.provider": "black",
 
     // cmake
     "cmake.configureOnOpen": false,
@@ -149,6 +150,14 @@
     "svelte.plugin.svelte.rename.enable": false,
     "svelte.plugin.svelte.format.enable": false,
     "svelte.enable-ts-plugin": true,
+
+    // csharp
+    "csharp.referencesCodeLens.enabled": false,
+    "csharp.testsCodeLens.enabled": false,
+    "omnisharp.autoStart": false,
+    "csharp.suppressDotnetInstallWarning": true,
+    "omnisharp.useGlobalMono": "always",
+    "omnisharp.path": "latest",
 
 
 
@@ -227,14 +236,6 @@
     "material-icon-theme.files.associations": {
         "*.m":"matlab"
     },
-
-    // csharp
-    "csharp.referencesCodeLens.enabled": false,
-    "csharp.testsCodeLens.enabled": false,
-    "omnisharp.autoStart": false,
-    "csharp.suppressDotnetInstallWarning": true,
-    "omnisharp.useGlobalMono": "always",
-    "omnisharp.path": "latest",
 
     // bracket colouriser 2
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
@@ -408,8 +409,10 @@
 
 
 
+
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
+        // global theme colours
         "editorBracketHighlight.foreground1":"#d4d4d4",
         "editorBracketHighlight.foreground2":"#4da7bb",
         "editorBracketHighlight.foreground3":"#f7c627",
@@ -455,5 +458,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ayu Dark"
+    "workbench.colorTheme": "Adwaita Base16"
 }
