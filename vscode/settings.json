@@ -24,7 +24,6 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "extensions.ignoreRecommendations": true,
-    "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.fontFamily": "Consolas",
     "editor.parameterHints.enabled": false,
@@ -58,6 +57,9 @@
     "security.workspace.trust.enabled": false,
     "editor.minimap.enabled": false,
     "editor.bracketPairColorization.enabled": true,
+    "git.closeDiffOnOperation": true,
+
+    // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
     "terminal.integrated.profiles.windows":{
         "Command Prompt": {
@@ -67,6 +69,16 @@
             ],
             "args": [],
             "icon": "terminal-cmd"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux":"zsh",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
         }
     },
 
@@ -372,7 +384,8 @@
         "darpa-ace-3": "linux",
         "falco": "linux",
         "afxmclc": "linux",
-        "jigglypuff": "linux"
+        "jigglypuff": "linux",
+        "ep2dev": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
@@ -407,12 +420,19 @@
     "markdown-pdf.margin.top": "2cm",
     "markdown-pdf.highlightStyle": "a11y-dark.css",
 
+    // github markdown
+    "markdown-preview-github-styles.colorTheme": "light",
+
 
 
 
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
-        // global theme colours
+        // ---- CUSTOM ----
+
+
+        // ---- GLOBALS ----
+        // brackets
         "editorBracketHighlight.foreground1":"#d4d4d4",
         "editorBracketHighlight.foreground2":"#4da7bb",
         "editorBracketHighlight.foreground3":"#f7c627",
@@ -423,40 +443,19 @@
     },
 
     "editor.tokenColorCustomizations":{
-        "comments":"#608b4e"
-        // "textMateRules": [
-        //     {
-        //         "scope":"string.quoted.docstring.multi.python",
-        //         "settings": {
-        //             "foreground": "#608b4e" //change to your preference
-        //         }
-        //     }
-        // ]
-        // "textMateRules": [
-        //     {
-        //         "scope": "comment",
-        //         "settings": {
-        //             "foreground": "#608b4e",
-        //             "fontStyle": ""
-        //         }
-        //     },
-        //     {
-        //         "scope": "comment.line",
-        //         "settings": {
-        //             "foreground": "#608b4e",
-        //             "fontStyle": ""
-        //         }
-        //     },
-        //     {
-        //         "scope": "comment.block",
-        //         "settings": {
-        //             "foreground": "#608b4e",
-        //             "fontStyle": ""
-        //         }
-        //     },
-        // ]
+        "[Base16 Atelier Cave]": {
+            "comments":"#608b4e",
+            "textMateRules": [
+                {
+                    "scope": "comment.line.double-slash",
+                    "settings": {
+                        "foreground": "#608b4e"
+                    }
+                },
+            ]
+        }
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Adwaita Base16"
+    "workbench.colorTheme": "Base16 Atelier Cave"
 }

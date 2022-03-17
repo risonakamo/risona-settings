@@ -390,5 +390,24 @@
         "scrollbarSlider.activeBackground": "#215d9c80",
         "scrollbarSlider.hoverBackground": "#c0c0c060",
         "tab.activeBorder": "#d79921",
-    }
+    },
+    "[Dark Theme]": {
+        "tab.unfocusedActiveForeground": "#cccccc",
+        "titleBar.inactiveBackground": "#3c3c3c99",
+        "titleBar.inactiveForeground": "#cccccc99",
+        "terminal.ansiBrightBlue": "#4FB4D8",
+        "editor.selectionHighlightBackground": "#add6ff26",
+    },
+    "[Ayu Dark]": {
+        "editor.lineHighlightBorder": "#282828",
+    },
+    "[Slytherin dark]": {
+        "editor.background": "#1e1e1e",
+        "diffEditor.insertedTextBackground": "#64be8130",
+        "diffEditor.removedTextBackground": "#ff000030",
+    },
+    "[Hogwarts colors dark]": {
+        "diffEditor.insertedTextBackground": "#64be8120",
+        "diffEditor.removedTextBackground": "#ff000020",
+    },
 }
