@@ -410,4 +410,47 @@
         "diffEditor.insertedTextBackground": "#64be8120",
         "diffEditor.removedTextBackground": "#ff000020",
     },
+    "[OxTheme]": {
+        "editor.background": "#1e1e1e",
+        "scrollbarSlider.background": "#79797966",
+        "scrollbarSlider.hoverBackground": "#646464b3",
+        "scrollbarSlider.activeBackground": "#bfbfbf66",
+        "list.activeSelectionBackground": "#04395e",
+    },
+    "[Conifer]": {
+        "editorOverviewRuler.errorForeground": "#c1918b",
+        "menu.selectionBackground": "#a7beb115",
+    },
+    "[Base16 Marrakesh]": {
+        "editor.background": "#1e1e1e",
+    },
+    "[Base16 IR Black]": {
+        "editor.background": "#1e1e1e",
+    },
+    "[Base16 Eighties]": {
+        "editor.background": "#1e1e1e",
+    },
+    "[Base16 PhD]": {
+        "editor.background": "#1e1e1e",
+    },
+    "[Material Dark Extra]": {
+        "scrollbarSlider.activeBackground": "#bfbfbf66",
+        "scrollbarSlider.background": "#79797966",
+        "scrollbarSlider.hoverBackground": "#646464b3",
+        "editor.lineHighlightBackground":"#1e1e1e",
+        "editor.lineHighlightBorder":"#282828",
+        "list.activeSelectionBackground": "#106f9e4d",
+        "list.hoverBackground": "#2a2d2e"
+    },
+    "[less]": {
+        "editor.lineHighlightBackground":"#1e1e1e",
+        "editor.lineHighlightBorder":"#282828",
+    },
+    "[Night Rainbow]": {
+        "scrollbarSlider.hoverBackground": "#646464b3",
+    },
+    "[Acrylic Dark Theme]": {
+        "scrollbarSlider.activeBackground": "#21303ab3",
+        "scrollbarSlider.background": "#21303a66",
+    }
 }

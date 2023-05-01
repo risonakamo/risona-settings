@@ -120,5 +120,9 @@
         "key": "ctrl+k ctrl+r",
         "command": "-git.revertSelectedRanges",
         "when": "isInDiffEditor"
+    },
+    {
+        "key":"ctrl+shift+v",
+        "command": "markdown.showLockedPreviewToSide"
     }
 ]

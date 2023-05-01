@@ -30,13 +30,10 @@
     "breadcrumbs.enabled": true,
     "search.useIgnoreFiles": false,
     "editor.autoClosingQuotes": "never",
-    "workbench.activityBar.visible": false,
     "editor.find.seedSearchStringFromSelection": "never",
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
-    "editor.renderIndentGuides": false,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true,
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
@@ -48,16 +45,28 @@
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
-    "editor.scrollbar.verticalScrollbarSize":30,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.scrollbar.verticalScrollbarSize": 30,
     "git.ignoreLegacyWarning": true,
     "editor.rulers": [
         110
     ],
     "security.workspace.trust.enabled": false,
-    "editor.minimap.enabled": false,
     "editor.bracketPairColorization.enabled": true,
-    "git.closeDiffOnOperation": true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.visible": false,
+    "window.commandCenter": true,
+    "editor.guides.indentation": false,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "git.mergeEditor": true,
+    "git.showActionButton": {
+        "publish": false,
+        "sync": false
+    },
+    "search.exclude": {
+        "**/*.pyc": true
+    },
 
     // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
@@ -81,6 +90,7 @@
             "path": "zsh"
         }
     },
+    "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’_",
 
 
 
@@ -113,6 +123,9 @@
     "[typescriptreact]":{
         "editor.tabSize": 2
     },
+    "[html]": {
+        "editor.tabSize": 2
+    },
     "javascript.updateImportsOnFileMove.enabled": "never",
 
     // html
@@ -126,8 +139,13 @@
     "python.linting.enabledWithoutWorkspace": false,
     "python.analysis.typeCheckingMode": "basic",
     "python.languageServer": "Pylance",
-    "python.analysis.autoImportCompletions": false,
     "jupyter.askForKernelRestart": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoImportUserSymbols": true,
+    "python.analysis.autoImportCompletions": true,
 
     // css/less
     "css.lint.emptyRules": "ignore",
@@ -171,6 +189,19 @@
     "omnisharp.useGlobalMono": "always",
     "omnisharp.path": "latest",
 
+    // markdown
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "markdown.preview.scrollEditorWithPreview": false,
+
+    // java
+    "redhat.telemetry.enabled": false,
+    "java.format.enabled": false,
+    "java.inlayHints.parameterNames.enabled": "none",
+
+    // json
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 
 
 
@@ -385,7 +416,14 @@
         "falco": "linux",
         "afxmclc": "linux",
         "jigglypuff": "linux",
-        "ep2dev": "linux"
+        "ep2dev": "linux",
+        "ace-19": "linux",
+        "link": "linux",
+        "protomatic1": "linux",
+        "masterhand": "linux",
+        "donkeykong": "linux",
+        "KAU-D5": "linux",
+        "kau-d5": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
@@ -429,7 +467,9 @@
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
         // ---- CUSTOM ----
-
+        "[themeofryuk]": {
+            "tab.inactiveBackground": "#191919"
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -443,7 +483,7 @@
     },
 
     "editor.tokenColorCustomizations":{
-        "[Base16 Atelier Cave]": {
+        "[Material Dark Extra]": {
             "comments":"#608b4e",
             "textMateRules": [
                 {
@@ -457,5 +497,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Base16 Atelier Plateau"
+    "workbench.colorTheme": "themeofryuk"
 }
