@@ -497,5 +497,8 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "themeofryuk"
+    "workbench.colorTheme": "Nairobi Night",
+    "diffEditor.diffAlgorithm": "advanced",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.navigationScope": "editor"
 }
