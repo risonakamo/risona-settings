@@ -15,18 +15,16 @@
 	"react component":{
 		"prefix":"nrc",
 		"body":[
-			"import React from \"react\";",
-			"",
-			"import \"./$TM_FILENAME_BASE.less\";",
+			"import cxs from \"./$TM_FILENAME_BASE.module.less\";",
 			"",
 			"interface ${ComponentName}Props",
 			"{",
 			"",
 			"}",
 			"",
-			"export default function ${ComponentName}(props:${ComponentName}Props):JSX.Element",
+			"export function ${ComponentName}(props:${ComponentName}Props):JSX.Element",
 			"{",
-			"  return ${componentHTML};",
+			"  return <div className={cxs[\"$TM_FILENAME_BASE\"]}>${ComponentHtml}</div>;",
 			"}"
 		],
 		"description":"template for new react component",
