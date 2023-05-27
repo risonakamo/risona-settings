@@ -35,5 +35,29 @@
 			"/** $1 */"
 		],
 		"description": "start a doc comment"
+	},
+	"storybook_story":{
+		"prefix":"story",
+		"description": "storybook story",
+		"body":[
+			"import type {Meta,StoryObj} from \"@storybook/react\";",
+			"",
+			"import {${ComponentName},${ComponentName}Props} from \"components/${ComponentString}/${ComponentString}\";",
+			"",
+			"type Story=StoryObj<${ComponentName}Props>;",
+			"",
+			"const meta:Meta<${ComponentName}Props>={",
+			"  title:\"${ComponentTitle}\",",
+			"  component:${ComponentName}",
+			"};",
+			"export default meta;",
+			"",
+			"const normalProps:${ComponentName}Props={",
+			"",
+			"};",
+			"export const normal:Story={",
+			"  args:normalProps",
+			"};",
+		]
 	}
 }
