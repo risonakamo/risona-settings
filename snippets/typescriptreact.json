@@ -15,16 +15,16 @@
 	"react component":{
 		"prefix":"nrc",
 		"body":[
-			"import cxs from \"./$TM_FILENAME_BASE.module.less\";",
+			"import \"./$TM_FILENAME_BASE.less\";",
 			"",
-			"interface ${ComponentName}Props",
+			"export interface ${ComponentName}Props",
 			"{",
 			"",
 			"}",
 			"",
 			"export function ${ComponentName}(props:${ComponentName}Props):JSX.Element",
 			"{",
-			"  return <div className={cxs[\"$TM_FILENAME_BASE\"]}>${ComponentHtml}</div>;",
+			"  return <div className=\"$TM_FILENAME_BASE\">${ComponentHtml}</div>;",
 			"}"
 		],
 		"description":"template for new react component",
@@ -35,5 +35,29 @@
 			"/** $1 */"
 		],
 		"description": "start a doc comment"
+	},
+	"storybook_story":{
+		"prefix":"story",
+		"description": "storybook story",
+		"body":[
+			"import type {Meta,StoryObj} from \"@storybook/react\";",
+			"",
+			"import {${ComponentName},${ComponentName}Props} from \"components/${ComponentString}/${ComponentString}\";",
+			"",
+			"type Story=StoryObj<${ComponentName}Props>;",
+			"",
+			"const meta:Meta<${ComponentName}Props>={",
+			"  title:\"${ComponentTitle}\",",
+			"  component:${ComponentName},",
+			"  args:{",
+			"",
+			"  }",
+			"};",
+			"export default meta;",
+			"",
+			"export const normal:Story={",
+			"",
+			"};",
+		]
 	}
 }
