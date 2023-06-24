@@ -1,0 +1,17 @@
+[Browser]
+cmd_convert
+cmd_compare
+cmd_search
+_separator_
+cmd_untagAll
+cmd_tagShowFiles
+_separator_
+cmd_sortBy
+cmd_filterBy
+cmd_viewAs
+
+[View]
+cmd_zoomIn
+cmd_zoomOut
+cmd_lockZoom
+cmd_fitAll
