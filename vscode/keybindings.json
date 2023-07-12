@@ -122,7 +122,8 @@
         "when": "isInDiffEditor"
     },
     {
-        "key":"ctrl+shift+v",
-        "command": "markdown.showLockedPreviewToSide"
+        "key":"ctrl+space",
+        "command": "markdown.showLockedPreviewToSide",
+        "when": "editorLangId == 'markdown'"
     }
 ]
