@@ -67,6 +67,7 @@
     "search.exclude": {
         "**/*.pyc": true
     },
+    "diffEditor.experimental.useVersion2": true,
     "diffEditor.diffAlgorithm": "advanced",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.navigationScope": "editor",
@@ -506,5 +507,6 @@
         }
     },
 
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Nairobi Night"
 }

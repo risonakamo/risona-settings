@@ -29,6 +29,29 @@
 		],
 		"description":"template for new react component",
 	},
+	"react page":{
+		"prefix":"nrp",
+		"body":[
+			"import {createRoot} from \"react-dom/client\";",
+			"",
+			"import \"./$TM_FILENAME_BASE.less\";",
+			"",
+			"function ${1:PageName}Index():JSX.Element",
+			"{",
+			"  return <>",
+			"    $2",
+			"  </>;",
+			"}",
+			"",
+			"function main()",
+			"{",
+			"  createRoot(document.querySelector(\".main\")!).render(<${1:PageName}Index/>);",
+			"}",
+			"",
+			"window.onload=main;"
+		],
+		"description": "template for new react page"
+	},
 	"doc_comment":{
 		"prefix":"docc",
 		"body":[
