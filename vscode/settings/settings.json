@@ -67,6 +67,10 @@
     "search.exclude": {
         "**/*.pyc": true
     },
+    "diffEditor.diffAlgorithm": "advanced",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.navigationScope": "editor",
+    "git.closeDiffOnOperation": true,
 
     // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
@@ -163,6 +167,12 @@
     "rust-analyzer.inlayHints.enable": false,
     "rust-analyzer.completion.autoimport.enable": false,
     "rust-analyzer.lens.debug": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.renderColons": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.imports.prefix": "crate",
     "rust-analyzer.lens.enable": false,
 
     // other files
@@ -496,9 +506,5 @@
         }
     },
 
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nairobi Night",
-    "diffEditor.diffAlgorithm": "advanced",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.navigationScope": "editor"
+    "workbench.iconTheme": "material-icon-theme"
 }
