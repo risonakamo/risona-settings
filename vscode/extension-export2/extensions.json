@@ -1,0 +1,28 @@
+{
+    "extensions": [
+        "AndersEAndersen.html-class-suggestions",
+        "PKief.material-icon-theme",
+        "aaron-bond.better-comments",
+        "alefragnani.Bookmarks",
+        "be5invis.toml",
+        "benjpas.close-all",
+        "bierner.markdown-preview-github-styles",
+        "carlos-rgl.material-gecko",
+        "kaiwood.indentation-level-movement",
+        "kamikillerto.vscode-colorize",
+        "mhutchie.git-graph",
+        "mikestead.dotenv",
+        "mrmlnc.vscode-duplicate",
+        "mrmlnc.vscode-less",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer",
+        "rust-lang.rust-analyzer",
+        "s-nlf-fh.glassit",
+        "sgryjp.japanese-word-handler",
+        "svelte.svelte-vscode",
+        "tuguldurio.monokai-aora"
+    ]
+}
