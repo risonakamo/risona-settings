@@ -72,6 +72,7 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.navigationScope": "editor",
     "git.closeDiffOnOperation": true,
+    "git.openRepositoryInParentFolders": "never",
 
     // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
@@ -400,6 +401,7 @@
     "git-graph.commitDetailsView.location": "Docked to Bottom",
     "git-graph.repository.fetchAndPrune": true,
     "git-graph.repository.onLoad.scrollToHead": true,
+    "git-graph.retainContextWhenHidden": true,
 
     // git lens
     "gitlens.currentLine.enabled": false,
@@ -409,6 +411,17 @@
     "gitlens.hovers.enabled": false,
     "gitlens.views.remotes.files.layout": "tree",
     "gitlens.sortBranchesBy": "date:desc",
+    "gitlens.advanced.fileHistoryShowAllBranches": true,
+    "gitlens.graph.layout": "editor",
+    "gitlens.graph.minimap.additionalTypes": [
+        "localBranches",
+        "stashes",
+        "remoteBranches",
+        "tags"
+    ],
+    "gitlens.graph.avatars": false,
+    "gitlens.graph.dimMergeCommits": true,
+    "gitlens.graph.showRemoteNames": true,
 
     // auto scroll to bottom
     "autoscroll.keepLastLineInCenter": false,
@@ -434,7 +447,8 @@
         "masterhand": "linux",
         "donkeykong": "linux",
         "KAU-D5": "linux",
-        "kau-d5": "linux"
+        "kau-d5": "linux",
+        "mewtwo": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
 
@@ -481,6 +495,15 @@
         "[themeofryuk]": {
             "tab.inactiveBackground": "#191919"
         },
+        "[Awoo Theme]": {
+            "editor.background": "#1e1e1e",
+        },
+        "[Pygment]": {
+            "editor.background": "#1e1e1e",
+            "scrollbarSlider.activeBackground": "#00718d99",
+            "scrollbarSlider.background": "#68686866",
+            "scrollbarSlider.hoverBackground": "#005d7466",
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -508,5 +531,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nairobi Night"
+    "workbench.colorTheme": "Pygment"
 }
