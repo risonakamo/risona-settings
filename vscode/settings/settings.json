@@ -397,11 +397,12 @@
 
     // git graph
     "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
-    "git-graph.showStatusBarItem": false,
     "git-graph.commitDetailsView.location": "Docked to Bottom",
     "git-graph.repository.fetchAndPrune": true,
     "git-graph.repository.onLoad.scrollToHead": true,
     "git-graph.retainContextWhenHidden": true,
+    "git-graph.repository.commits.loadMore": 500,
+    "git-graph.showStatusBarItem": false,
 
     // git lens
     "gitlens.currentLine.enabled": false,
