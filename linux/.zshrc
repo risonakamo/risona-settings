@@ -7,6 +7,11 @@
 antigen init ~/.antigenrc
 unsetopt share_history
 unsetopt autopushd
+# zstyle ':autocomplete:*' delay 5
+# bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
+# bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+
+
 
 
 # --- prompts ---
@@ -23,6 +28,10 @@ export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export DOCKER_BUILDKIT=1
 export LD_LIBRARY_PATH=/usr/local/lib64
 export dtcwc=dtcwcmin-n200
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:/usr/local/go/bin:$PATH"
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+export POETRY_REQUESTS_TIMEOUT=999999
+
 
 
 # --- aliases ---
@@ -48,6 +57,13 @@ alias runafsim="/awlpool/awlcloud/ngokn1/afsim25stuff/AFSIM-2.6.1-lnx64-gcc4/bin
 alias runafsim2="/awlpool/awlcloud/ngokn1/afsim25stuff/AFSIM-2.9.0-lnx64-gcc4/bin/mission"
 
 alias tp="trash-put"
+alias ta="tmux a"
+
+alias gomp1="ssh osi@mp1 -J ace-adt@ace-19"
+
+
+
+
 
 # --- functions ---
 # vscode the target folder and popd
@@ -92,4 +108,55 @@ lc2()
 jlogs()
 {
     sudo journalctl --no-pager -n 500 -xefu $1.service
+}
+
+# kill all pods in a namespace
+# $1: target namespace
+killallpods()
+{
+    kubectl -n $1 delete pods --all --force --grace-period=0
+}
+
+# print out the top commit for all submodules. useful for telling if each submoddule is pushed
+# to remote or not (if not, first commit will not show remote name, only a HEAD). if repo is
+# missing a remote, this is a problem, as no one would be able to pull this commit. need to navigate
+# to that repo and push it to some remote
+git-submodule-log()
+{
+    git submodule foreach git --no-pager log -1
+}
+
+# git diff a single file, preferably a submodule
+# $1: the name of file
+git-diff-file()
+{
+    git --no-pager diff @~1 $1
+}
+
+# open code on all given items
+# $@: names of repos
+code-all()
+{
+    for thing in "$@"; do
+        code "$thing"
+    done
+}
+
+# save tmux pane to a file in the current location
+# $1: name of outfile
+# $2: amount to save
+save-tmux-buffer()
+{
+    outName="tmux-out.txt"
+    saveAmount=3000
+
+    if [[ -n $1 ]]; then
+        outName=$1
+    fi
+
+    if [[ -n $2 ]]; then
+        saveAmount=$2
+    fi
+
+    tmux capture-pane -p -S -$saveAmount > $outName
 }
