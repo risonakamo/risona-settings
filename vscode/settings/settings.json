@@ -53,7 +53,7 @@
     "security.workspace.trust.enabled": false,
     "editor.bracketPairColorization.enabled": true,
     "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.location": "hidden",
     "window.commandCenter": true,
     "editor.guides.indentation": false,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
@@ -61,9 +61,9 @@
     "editor.minimap.enabled": false,
     "git.mergeEditor": true,
     "git.showActionButton": {
-        "publish": false,
-        "sync": false
+        "publish": false
     },
+    "git.confirmSync": false,
     "search.exclude": {
         "**/*.pyc": true
     },
@@ -159,6 +159,11 @@
     "less.completion.completePropertyWithSemicolon": false,
     "less.lint.emptyRules": "ignore",
     "python.formatting.provider": "black",
+    "[less]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "less.format.braceStyle": "expand",
+    "less.format.spaceAroundSelectorSeparator": true,
 
     // cmake
     "cmake.configureOnOpen": false,
@@ -176,6 +181,18 @@
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "rust-analyzer.imports.prefix": "crate",
     "rust-analyzer.lens.enable": false,
+
+
+    // go
+    "go.lintOnSave": "off",
+    "editor.formatOnSave": false,
+    "[go]":{
+        "editor.formatOnSave": false,
+        "editor.formatOnSaveMode": "file",
+        "editor.autoClosingBrackets": "never",
+        "editor.defaultFormatter": null,
+        "editor.insertSpaces": true,
+    },
 
     // other files
     "files.associations": {
@@ -200,10 +217,6 @@
     "csharp.suppressDotnetInstallWarning": true,
     "omnisharp.useGlobalMono": "always",
     "omnisharp.path": "latest",
-
-    // markdown
-    "markdown.preview.scrollPreviewWithEditor": false,
-    "markdown.preview.scrollEditorWithPreview": false,
 
     // java
     "redhat.telemetry.enabled": false,
@@ -484,8 +497,12 @@
     "markdown-pdf.margin.top": "2cm",
     "markdown-pdf.highlightStyle": "a11y-dark.css",
 
-    // github markdown
+
+    // markdown
     "markdown-preview-github-styles.colorTheme": "light",
+    "[markdown]": {
+        "editor.fontSize": 15
+    },
 
 
 
@@ -532,5 +549,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Pygment"
+    "workbench.colorTheme": "Calypso",
 }

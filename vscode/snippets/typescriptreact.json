@@ -45,7 +45,7 @@
 			"",
 			"function main()",
 			"{",
-			"  createRoot(document.querySelector(\".main\")!).render(<${1:PageName}Index/>);",
+			"  createRoot(document.querySelector(\"main\")!).render(<${1:PageName}Index/>);",
 			"}",
 			"",
 			"window.onload=main;"
