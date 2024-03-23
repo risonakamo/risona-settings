@@ -34,13 +34,13 @@
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "diffEditor.renderSideBySide": true,
-    "markdown.preview.doubleClickToSwitchToEditor": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
     },
     "editor.find.autoFindInSelection": "multiline",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
     "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
@@ -122,8 +122,6 @@
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-    "javascript.suggest.autoImports": false,
-    "typescript.suggest.autoImports": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
     // "javascript.format.enable": false,
     "[typescriptreact]":{
@@ -143,7 +141,7 @@
     ],
     "python.linting.enabled": false,
     "python.linting.enabledWithoutWorkspace": false,
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "standard",
     "python.languageServer": "Pylance",
     "jupyter.askForKernelRestart": false,
     "[python]": {
@@ -167,6 +165,7 @@
 
     // cmake
     "cmake.configureOnOpen": false,
+    "cmake.showOptionsMovedNotification": false,
 
     // rust
     "rust-analyzer.completion.addCallParenthesis": false,
@@ -184,14 +183,8 @@
 
 
     // go
-    "go.lintOnSave": "off",
-    "editor.formatOnSave": false,
     "[go]":{
-        "editor.formatOnSave": false,
-        "editor.formatOnSaveMode": "file",
-        "editor.autoClosingBrackets": "never",
-        "editor.defaultFormatter": null,
-        "editor.insertSpaces": true,
+        "editor.formatOnSave": false
     },
 
     // other files
@@ -217,6 +210,8 @@
     "csharp.suppressDotnetInstallWarning": true,
     "omnisharp.useGlobalMono": "always",
     "omnisharp.path": "latest",
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "dotnet.codeLens.enableTestsCodeLens": false,
 
     // java
     "redhat.telemetry.enabled": false,
@@ -436,6 +431,10 @@
     "gitlens.graph.avatars": false,
     "gitlens.graph.dimMergeCommits": true,
     "gitlens.graph.showRemoteNames": true,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.blame.avatars": false,
+    "gitlens.blame.format": "${author|10} ${authorAgoOrDateShort|5}",
+    "gitlens.views.tags.branches.layout": "list",
 
     // auto scroll to bottom
     "autoscroll.keepLastLineInCenter": false,
@@ -473,12 +472,10 @@
     "colorize.colorized_variables": [
         "LESS"
     ],
-
     "colorize.languages": [
         "less","typescript"
     ],
 
-    "markdown-pdf.breaks":true,
 
     // tab nine
     "tabnine.experimentalAutoImports": true,
@@ -496,6 +493,7 @@
     "markdown-pdf.margin.right": "2cm",
     "markdown-pdf.margin.top": "2cm",
     "markdown-pdf.highlightStyle": "a11y-dark.css",
+    "markdown-pdf.breaks":true,
 
 
     // markdown
@@ -503,6 +501,19 @@
     "[markdown]": {
         "editor.fontSize": 15
     },
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "markdown.validate.fileLinks.enabled": "error",
+    "markdown.validate.enabled": true,
+    "markdown.occurrencesHighlight.enabled": true,
+    "markdown.validate.fragmentLinks.enabled": "error",
+
+    // foam
+    "foam.links.hover.enable": false,
+    "foam.edit.linkReferenceDefinitions": "withExtensions",
+
+    // npm
+    "npm.packageManager": "pnpm",
 
 
 
@@ -510,6 +521,14 @@
     /*-------- THEMES --------*/
     "workbench.colorCustomizations": {
         // ---- CUSTOM ----
+        "[mib-tema]": {
+            "editor.background": "#1e1e1e",
+            "editorGutter.background": "#1e1e1e",
+            "list.activeSelectionBackground":"#2c87c44d",
+            "list.highlightForeground": "#cca700",
+            "editorSuggestWidget.selectedBackground": "#0097fb80",
+            "editorSuggestWidget.highlightForeground": "#7eaecd",
+        },
         "[themeofryuk]": {
             "tab.inactiveBackground": "#191919"
         },
@@ -521,6 +540,14 @@
             "scrollbarSlider.activeBackground": "#00718d99",
             "scrollbarSlider.background": "#68686866",
             "scrollbarSlider.hoverBackground": "#005d7466",
+        },
+        "[Zeonica (Midnight)]": {
+            "scrollbarSlider.activeBackground": "#322ea699",
+            "scrollbarSlider.background": "#322ea688",
+            "scrollbarSlider.hoverBackground": "#ad366ebb",
+        },
+        "[MidnightBlue]": {
+            "scrollbarSlider.background": "#40485388",
         },
 
         // ---- GLOBALS ----
@@ -549,5 +576,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Calypso",
+    "workbench.colorTheme": "Lemon"
 }
