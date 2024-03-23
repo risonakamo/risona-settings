@@ -3,6 +3,7 @@ from shutil import which
 from pprint import pprint
 from json import dump
 from os.path import realpath,dirname,join,isfile
+from devtools import debug
 
 from pydantic import BaseModel
 
@@ -40,15 +41,15 @@ def getVscodeExtensions()->list[str]:
         for x in res.stdout.split()
     ]
 
-def readExtensionsFile()->ExtensionsFile:
+def readExtensionsFile(file:str)->ExtensionsFile:
     """read extensions file into obj"""
 
-    if not isfile(EXTENSIONS_FILE):
+    if not isfile(file):
         return ExtensionsFile(
             extensions=[]
         )
 
-    with open(EXTENSIONS_FILE,"r") as rfile:
+    with open(file,"r") as rfile:
         return ExtensionsFile.model_validate_json(rfile.read())
 
 def outputExtensionsList(extensions:list[str])->None:
@@ -65,12 +66,20 @@ def outputExtensionsList(extensions:list[str])->None:
             indent=4
         )
 
+def mergeExtensionsList(list1:list[str],list2:list[str])->list[str]:
+    """merge 2 extensions list. removes duplicates, and sorts in alpha order"""
+
+    mergedList:list[str]=list(set(list1+list2))
+    mergedList.sort()
+
+    return mergedList
+
 if __name__=="__main__":
     extensions:list[str]=getVscodeExtensions()
+    currentExtensions:ExtensionsFile=readExtensionsFile(EXTENSIONS_FILE)
+    mergedExtensions:list[str]=mergeExtensionsList(extensions,currentExtensions.extensions)
 
-    extensions.sort()
+    print(len(mergedExtensions),"extensions")
 
-    print(len(extensions),"extensions")
-
-    outputExtensionsList(extensions)
+    outputExtensionsList(mergedExtensions)
     print("completed")
