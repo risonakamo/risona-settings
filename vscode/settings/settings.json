@@ -4,7 +4,6 @@
     // core vscode settings
     "terminal.integrated.allowChords": false,
     "terminal.external.windowsExec": "wt",
-    "editor.autoClosingBrackets": "never",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -97,6 +96,7 @@
         }
     },
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’_",
+    "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
 
 
 
@@ -150,6 +150,8 @@
     "python.analysis.diagnosticMode": "workspace",
     "python.analysis.autoImportUserSymbols": true,
     "python.analysis.autoImportCompletions": true,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.completeFunctionParens": true,
 
     // css/less
     "css.lint.emptyRules": "ignore",
@@ -502,11 +504,12 @@
         "editor.fontSize": 15
     },
     "markdown.preview.doubleClickToSwitchToEditor": false,
-    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "markdown.updateLinksOnFileMove.enabled": "always",
     "markdown.validate.fileLinks.enabled": "error",
     "markdown.validate.enabled": true,
     "markdown.occurrencesHighlight.enabled": true,
     "markdown.validate.fragmentLinks.enabled": "error",
+    "markdown-links.graphType": "obsidian",
 
     // foam
     "foam.links.hover.enable": false,
@@ -515,6 +518,11 @@
     // npm
     "npm.packageManager": "pnpm",
 
+    // hex editor
+    "hexeditor.columnWidth": 9,
+    "hexeditor.showDecodedText": false,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
 
 
 
@@ -576,5 +584,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Lemon"
+    "workbench.colorTheme": "Lemon",
 }
