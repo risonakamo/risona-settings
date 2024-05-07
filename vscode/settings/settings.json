@@ -187,6 +187,7 @@
 
     // go
     "go.lintOnSave": "off",
+    "go.testExplorer.packageDisplayMode": "nested",
     "[go]":{
         "editor.formatOnSave": false,
         "editor.insertSpaces": true,
