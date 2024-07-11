@@ -125,5 +125,13 @@
         "key":"ctrl+space",
         "command": "markdown.showLockedPreviewToSide",
         "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
     }
 ]
