@@ -133,5 +133,13 @@
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "f5",
+        "command": "go.test.cursorOrPrevious"
+    },
+    {
+        "key": "f6",
+        "command": "go.test.previous"
     }
 ]

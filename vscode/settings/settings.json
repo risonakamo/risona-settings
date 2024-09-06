@@ -8,7 +8,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
@@ -33,6 +33,7 @@
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
     },
@@ -72,6 +73,7 @@
     "workbench.editor.navigationScope": "editor",
     "git.closeDiffOnOperation": true,
     "git.openRepositoryInParentFolders": "never",
+    "scm.defaultViewMode": "tree",
 
     // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
@@ -146,7 +148,8 @@
     "python.languageServer": "Pylance",
     "jupyter.askForKernelRestart": false,
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "diffEditor.ignoreTrimWhitespace": true
     },
     "python.analysis.diagnosticMode": "workspace",
     "python.analysis.autoImportUserSymbols": true,
@@ -204,11 +207,15 @@
 
     // svelte
     "[svelte]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "svelte.plugin.svelte.rename.enable": false,
     "svelte.plugin.svelte.format.enable": false,
     "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.compilerWarnings": {
+        "a11y-click-events-have-key-events":"ignore",
+        "a11y-no-static-element-interactions":"ignore"
+    },
 
     // csharp
     "csharp.referencesCodeLens.enabled": false,
@@ -419,6 +426,9 @@
     "git-graph.repository.commits.loadMore": 500,
     "git-graph.showStatusBarItem": false,
 
+    // other git graph
+    "git-log--graph.hide-sidebar-buttons": true,
+
     // git lens
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
@@ -483,6 +493,7 @@
         "less","typescript"
     ],
 
+
     // tab nine
     "tabnine.experimentalAutoImports": true,
 
@@ -507,7 +518,6 @@
     "[markdown]": {
         "editor.fontSize": 15
     },
-
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "markdown.updateLinksOnFileMove.enabled": "always",
     "markdown.validate.fileLinks.enabled": "error",
@@ -570,6 +580,37 @@
         "[MidnightBlue]": {
             "scrollbarSlider.background": "#40485388",
         },
+        "[Cherry Gum]": {
+            "scrollbarSlider.activeBackground": "#bfbfbf66",
+            "scrollbarSlider.background": "#79797966",
+            "scrollbarSlider.hoverBackground": "#646464b3",
+            "tab.activeBackground": "#1f1f1f",
+            "tab.activeBorder": "#1f1f1f",
+            "tab.activeBorderTop": "#0078d4",
+            "tab.activeForeground": "#ffffff",
+            "tab.border": "#2b2b2b",
+            "tab.hoverBackground": "#1f1f1f",
+            "tab.inactiveBackground": "#181818",
+            "tab.inactiveForeground": "#9d9d9d",
+            "tab.lastPinnedBorder": "#cccccc33",
+            "tab.unfocusedActiveBorder": "#1f1f1f",
+            "tab.unfocusedActiveBorderTop": "#2b2b2b",
+            "tab.unfocusedHoverBackground": "#1f1f1f",
+            "tab.inactiveModifiedBorder": "#3399cc80",
+            "tab.unfocusedActiveBackground": "#1f1f1f",
+            "tab.unfocusedActiveForeground": "#ffffff80",
+            "tab.unfocusedActiveModifiedBorder": "#3399cc80",
+            "tab.unfocusedInactiveBackground": "#181818",
+            "tab.unfocusedInactiveForeground": "#9d9d9d80",
+            "tab.unfocusedInactiveModifiedBorder": "#3399cc40",
+            "list.warningForeground": "#cca700",
+            "list.focusHighlightForeground": "#2aaaff",
+            "list.highlightForeground": "#2aaaff",
+            "errorForeground": "#f85149",
+            "editorError.foreground": "#f14c4c",
+            "editorOverviewRuler.errorForeground": "#ff1212b3",
+            "minimap.errorHighlight": "#ff1212b3",
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -597,5 +638,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Rosé Pine",
+    "workbench.colorTheme": "Monokai Space Gray"
 }
