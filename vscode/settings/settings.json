@@ -8,7 +8,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
@@ -33,7 +33,6 @@
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": false,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
     },
@@ -58,7 +57,6 @@
     "editor.guides.indentation": false,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.minimap.enabled": false,
     "git.mergeEditor": true,
     "git.showActionButton": {
         "publish": false
@@ -213,8 +211,8 @@
     "svelte.plugin.svelte.format.enable": false,
     "svelte.enable-ts-plugin": true,
     "svelte.plugin.svelte.compilerWarnings": {
-        "a11y-click-events-have-key-events":"ignore",
-        "a11y-no-static-element-interactions":"ignore"
+        "a11y-no-static-element-interactions":"ignore",
+        "a11y-click-events-have-key-events":"ignore"
     },
 
     // csharp
@@ -493,7 +491,6 @@
         "less","typescript"
     ],
 
-
     // tab nine
     "tabnine.experimentalAutoImports": true,
 
@@ -518,6 +515,7 @@
     "[markdown]": {
         "editor.fontSize": 15
     },
+
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "markdown.updateLinksOnFileMove.enabled": "always",
     "markdown.validate.fileLinks.enabled": "error",
@@ -612,6 +610,7 @@
             "minimap.errorHighlight": "#ff1212b3",
         },
 
+
         // ---- GLOBALS ----
         // brackets
         "editorBracketHighlight.foreground1":"#d4d4d4",
@@ -638,5 +637,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai Space Gray"
+    "workbench.colorTheme": "Rosé Pine",
 }
