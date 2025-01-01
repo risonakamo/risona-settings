@@ -59,7 +59,8 @@
     { "key": "ctrl+alt+z",            "command": "-glassit.increase" },
     { "key": "ctrl+alt+c",            "command": "-glassit.decrease" },
     {"key": "ctrl+x c","command": "merge-conflict.compare"},
-    {"key": "ctrl+g","command": "git-graph.fetch"},
+    // {"key": "ctrl+g","command": "git-graph.fetch"},
+    {"key": "ctrl+g","command": "git-log--graph.toggle"},
     {"key":"ctrl+alt+g","command":"workbench.view.extension.gitlens"},
     {"key": "ctrl+m","command": "editor.action.toggleMinimap"},
     {"key":"ctrl+shift+k","command":"bookmarksExplorer.focus"},
@@ -123,6 +124,11 @@
     },
     {
         "key":"ctrl+space",
+        "command": "markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key":"ctrl+shift+v",
         "command": "markdown.showLockedPreviewToSide",
         "when": "editorLangId == 'markdown'"
     },
@@ -141,5 +147,10 @@
     {
         "key": "f6",
         "command": "go.test.previous"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "markdown.showSource",
+        "when":"editorLangId != 'markdown' && !textInputFocus",
     }
 ]

@@ -33,6 +33,7 @@
     "workbench.editor.closeOnFileDelete": true,
     "editor.renderWhitespace": "none",
     "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
     "remote.extensionKind": {
         "coenraads.bracket-pair-colorizer-2": "ui"
     },
@@ -57,6 +58,7 @@
     "editor.guides.indentation": false,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
     "git.mergeEditor": true,
     "git.showActionButton": {
         "publish": false
@@ -211,8 +213,12 @@
     "svelte.plugin.svelte.format.enable": false,
     "svelte.enable-ts-plugin": true,
     "svelte.plugin.svelte.compilerWarnings": {
+        "a11y-click-events-have-key-events":"ignore",
         "a11y-no-static-element-interactions":"ignore",
-        "a11y-click-events-have-key-events":"ignore"
+        "a11y-no-noninteractive-tabindex":"ignore",
+        "a11y_label_has_associated_control":"ignore",
+        "a11y_no_static_element_interactions":"ignore",
+        "a11y_click_events_have_key_events":"ignore"
     },
 
     // csharp
@@ -491,6 +497,7 @@
         "less","typescript"
     ],
 
+
     // tab nine
     "tabnine.experimentalAutoImports": true,
 
@@ -513,9 +520,8 @@
     // markdown
     "markdown-preview-github-styles.colorTheme": "light",
     "[markdown]": {
-        "editor.fontSize": 15
+        "editor.fontSize": 16
     },
-
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "markdown.updateLinksOnFileMove.enabled": "always",
     "markdown.validate.fileLinks.enabled": "error",
@@ -609,7 +615,17 @@
             "editorOverviewRuler.errorForeground": "#ff1212b3",
             "minimap.errorHighlight": "#ff1212b3",
         },
-
+        "[Ruby Latte]": {
+            "scrollbarSlider.activeBackground": "#29292999",
+            "scrollbarSlider.background": "#29292988",
+            "scrollbarSlider.hoverBackground": "#292929bb",
+            "editor.selectionBackground": "#454444",
+            "editor.lineHighlightBackground": "#a0182150",
+            "quickInputList.focusBackground":"#522f2f",
+            "editorLineNumber.foreground":"#7e1a21",
+            "editorActionList.focusBackground":"#4a2222",
+            "editorSuggestWidget.selectedBackground":"#785454"
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -637,5 +653,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Rosé Pine",
+    "workbench.colorTheme": "Ruby Latte"
 }
