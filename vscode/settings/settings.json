@@ -432,6 +432,7 @@
 
     // other git graph
     "git-log--graph.hide-sidebar-buttons": true,
+    "git-log--graph.group-branch-remotes": false,
 
     // git lens
     "gitlens.currentLine.enabled": false,
