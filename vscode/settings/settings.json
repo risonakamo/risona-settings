@@ -8,7 +8,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
@@ -75,6 +75,17 @@
     "git.openRepositoryInParentFolders": "never",
     "scm.defaultViewMode": "tree",
 
+    // --- copilot
+    "inlineChat.holdToSpeech": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+
+
+
     // terminal
     "terminal.integrated.defaultProfile.windows":"Command Prompt",
     "terminal.integrated.profiles.windows":{
@@ -134,6 +145,7 @@
         "editor.tabSize": 2
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "explorer.autoReveal": "focusNoScroll",
 
     // html
     "html.autoClosingTags": true,
@@ -203,6 +215,9 @@
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
+    },
+    "[coffeescript]": {
+        "diffEditor.ignoreTrimWhitespace": true
     },
 
     // svelte
@@ -412,14 +427,20 @@
         "red"
     ],
 
+
+
     // spellright
     "spellright.notificationClass":"error",
     "spellright.documentTypes": [],
+
+
 
     // opacity
     "winopacity.opacity": 240,
     "glassit.alpha":235,
     // "glassit.alpha":255,
+
+
 
     // git graph
     "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
@@ -430,9 +451,13 @@
     "git-graph.repository.commits.loadMore": 500,
     "git-graph.showStatusBarItem": false,
 
+
+
     // other git graph
     "git-log--graph.hide-sidebar-buttons": true,
     "git-log--graph.group-branch-remotes": false,
+
+
 
     // git lens
     "gitlens.currentLine.enabled": false,
@@ -627,6 +652,14 @@
             "editorActionList.focusBackground":"#4a2222",
             "editorSuggestWidget.selectedBackground":"#785454"
         },
+        "[sequoya]": {
+            "scrollbarSlider.background": "#23232399",
+            "scrollbarSlider.hoverBackground": "#22303e99",
+        },
+        "[Matte Dark Theme]": {
+            "editorSuggestWidget.selectedForeground":"#ffffff",
+            "editorSuggestWidget.focusHighlightForeground":"#d82424"
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -654,5 +687,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ruby Latte"
+    "workbench.colorTheme": "Matte Dark Theme"
 }
