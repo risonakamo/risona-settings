@@ -8,7 +8,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
@@ -77,6 +77,7 @@
 
     // --- copilot
     "inlineChat.holdToSpeech": false,
+    "github.copilot.chat.useProjectTemplates": false,
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
@@ -687,5 +688,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Matte Dark Theme"
+    "workbench.colorTheme": "Rosé Pine",
 }
