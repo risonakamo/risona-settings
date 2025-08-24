@@ -80,7 +80,6 @@
     "inlineChat.holdToSpeech": false,
     "github.copilot.chat.useProjectTemplates": false,
     "github.copilot.enable": {
-        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
