@@ -123,6 +123,7 @@ export TERM=xterm-256color
 export PATH=$PATH:/mnt/clouds/foxcloud/ngokn1/cloudstuff/google-cloud-sdk/bin
 export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 export GIT_SSL_NO_VERIFY=1
+export GODEBUG=x509negativeserial=1
 
 # alias mpikyle="/home/casteka1/share/awlShare/airs/conda/anaconda3/envs/mpiEnv/bin/mpiexec --prefix /home/casteka1/share/awlShare/airs/conda/anaconda3/envs/mpiEnv --mca btl_tcp_if_include enp4s0"
 # alias kyleconda='eval "$(/home/casteka1/share/awlShare/airs/conda/anaconda3/bin/conda shell.bash hook)"'

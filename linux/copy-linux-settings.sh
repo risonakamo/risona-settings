@@ -5,3 +5,4 @@ HERE=$(dirname $(realpath $BASH_SOURCE))
 
 cd ~
 cp .bashrc .tmux.conf .zshrc .antigenrc $HERE
+cp .config/zellij/config.kdl $HERE

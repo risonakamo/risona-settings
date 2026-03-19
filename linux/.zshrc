@@ -26,12 +26,14 @@ export GIT_SSL_NO_VERIFY=1
 export NVM_DIR="$HOME/.nvm"
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export DOCKER_BUILDKIT=1
-export LD_LIBRARY_PATH=/usr/local/lib64
+export LD_LIBRARY_PATH=/usr/local/lib64:/usr/local/lib:/usr/lib
 export dtcwc=dtcwcmin-n200
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:/usr/local/go/bin:$PATH"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:/usr/local/go/bin:/var/lib/rancher/rke2/bin:$HOME/go/bin:$HOME/.opencode/bin:$PATH"
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 export POETRY_REQUESTS_TIMEOUT=999999
-
+export UV_NATIVE_TLS=true
+export UV_REQUEST_TIMEOUT=999999
+export TERM=xterm-256color
 
 
 # --- aliases ---
@@ -44,6 +46,7 @@ alias golinkcloud="pushd /awlpool/awlcloud/ngokn1"
 
 alias pip_install="pip install --default-timeout=100 --trusted-host pypi.org --trusted-host files.pythonhosted.org --trusted-host pypi.ngc.nvidia.com --trusted-host developer.download.nvidia.com"
 alias pipinstalle="pip_install -e ."
+alias pip_download="pip download --default-timeout=100 --trusted-host pypi.org --trusted-host files.pythonhosted.org --trusted-host pypi.ngc.nvidia.com --trusted-host developer.download.nvidia.com"
 alias sall="bash /awlpool/awlcloud/ngokn1/awl/awl-administration/utils/sshmultis/sall.sh"
 alias gosall="cd /awlpool/awlcloud/ngokn1/awl/awl-administration/utils/sshmultis"
 
@@ -55,11 +58,14 @@ alias lt="ls -ltr"
 
 alias runafsim="/awlpool/awlcloud/ngokn1/afsim25stuff/AFSIM-2.6.1-lnx64-gcc4/bin/mission"
 alias runafsim2="/awlpool/awlcloud/ngokn1/afsim25stuff/AFSIM-2.9.0-lnx64-gcc4/bin/mission"
+alias runafsim3="/awlpool/awlcloud/ngokn1/afsim25stuff/AFSIM-2.2311.1+lts-x64-linux/bin/mission.libexec"
 
 alias tp="trash-put"
 alias ta="tmux a"
 
 alias gomp1="ssh osi@mp1 -J ace-adt@ace-19"
+
+alias madness="docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness"
 
 
 
@@ -159,4 +165,62 @@ save-tmux-buffer()
     fi
 
     tmux capture-pane -p -S -$saveAmount > $outName
+}
+
+# do poetry config stuff
+do-poetry-config()
+{
+    poetry config repositories.pyhosted https://files.pythonhosted.org
+    poetry config repositories.PyPI https://pypi.org/simple
+    poetry config certificates.pyhosted.cert false
+    poetry config certificates.PyPI.cert false
+    poetry config virtualenvs.create false
+}
+
+# kill all docker containers
+kill-all-containers()
+{
+    docker kill $(docker ps -q)
+}
+
+# fix sudo x11
+fix-sudo-x11()
+{
+    sudo touch /root/.Xauthority
+    sudo xauth add $(xauth -f ~/.Xauthority list | tail -1)
+}
+
+# rename a branch on remote. this means the original target branch will be deleted
+# $1: remote name
+# $2: name of remote branch (without the remote name. so instead of origin/master, just master)
+# $3: new name of branch (without remote name)
+git-rename-remote-branch()
+{
+    remoteName=$1
+    targetBranch=$2
+    newBranch=$3
+
+    remoteBranchHash=$(git rev-parse ${remoteName}/${targetBranch})
+
+    git push $remoteName ${remoteBranchHash}:refs/heads/${newBranch}
+    git push $remoteName :${targetBranch}
+}
+
+
+# activate a python env with pyenv file in the specified location
+pye()
+{
+    if [[ -z "$1" ]]; then
+        . ./pyenv.sh
+    else
+        . ./$1/pyenv.sh
+    fi
+}
+
+try-ssh()
+{
+    while true; do
+        ssh $1
+        sleep 3
+    done
 }
