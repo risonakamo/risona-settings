@@ -154,7 +154,11 @@
         "when":"editorLangId != 'markdown' && !textInputFocus",
     },
     {
-        "key": "ctrl+g",
-        "command": "git-graph.fetch"
+        "key": "ctrl+shift+alt+g",
+        "command": "editor.action.announceCursorPosition"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-editor.action.announceCursorPosition"
     }
 ]

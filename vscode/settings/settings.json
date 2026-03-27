@@ -2,9 +2,7 @@
 {
     /*-------- EDITOR SETTINGS --------*/
     // core vscode settings
-    "terminal.integrated.allowChords": false,
     "window.titleBarStyle": "custom",
-    "terminal.external.windowsExec": "wt",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -120,6 +118,10 @@
     },
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’_",
     "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+    "terminal.integrated.suggest.selectionMode": "never",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.allowChords": false,
+    "terminal.external.windowsExec": "wt",
 
 
 
