@@ -3,6 +3,7 @@
     /*-------- EDITOR SETTINGS --------*/
     // core vscode settings
     "terminal.integrated.allowChords": false,
+    "window.titleBarStyle": "custom",
     "terminal.external.windowsExec": "wt",
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
