@@ -7,7 +7,6 @@
     "editor.snippetSuggestions": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.sideBar.location": "right",
     "editor.fontSize": 13,
     "window.menuBarVisibility": "toggle",
     "editor.cursorStyle": "block",
@@ -41,6 +40,7 @@
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
+    "explorer.autoOpenDroppedFile": false,
     "http.proxyStrictSSL": false,
     "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
     "github.gitAuthentication": false,
@@ -53,12 +53,10 @@
     "security.workspace.trust.enabled": false,
     "editor.bracketPairColorization.enabled": true,
     "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "window.commandCenter": true,
     "editor.guides.indentation": false,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.minimap.enabled": false,
     "git.mergeEditor": true,
     "git.showActionButton": {
         "publish": false
@@ -74,12 +72,22 @@
     "git.closeDiffOnOperation": true,
     "git.openRepositoryInParentFolders": "never",
     "scm.defaultViewMode": "tree",
+    "telemetry.telemetryLevel": "off",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "diffEditor.experimental.showMoves": true,
+    "scm.repositories.selectionMode": "single",
+    "explorer.sortOrder": "default",
+    "editor.minimap.enabled": false,
+
+
+
 
     // --- copilot
     "inlineChat.holdToSpeech": false,
     "github.copilot.chat.useProjectTemplates": false,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
@@ -146,7 +154,7 @@
         "editor.tabSize": 2
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "explorer.autoReveal": "focusNoScroll",
+    "explorer.autoReveal": false,
 
     // html
     "html.autoClosingTags": true,
@@ -209,6 +217,9 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 4
     },
+    "go.toolsEnvVars": {
+        "GODEBUG":"x509negativeserial=1"
+    },
 
     // other files
     "files.associations": {
@@ -246,6 +257,10 @@
     "omnisharp.path": "latest",
     "dotnet.codeLens.enableReferencesCodeLens": false,
     "dotnet.codeLens.enableTestsCodeLens": false,
+    "[csharp]": {
+        "editor.formatOnType": false
+    },
+    "csharp.format.enable": false,
 
     // java
     "redhat.telemetry.enabled": false,
@@ -450,7 +465,6 @@
     "git-graph.repository.onLoad.scrollToHead": true,
     "git-graph.retainContextWhenHidden": true,
     "git-graph.repository.commits.loadMore": 500,
-    "git-graph.showStatusBarItem": false,
 
 
 
@@ -509,9 +523,18 @@
         "donkeykong": "linux",
         "KAU-D5": "linux",
         "kau-d5": "linux",
-        "mewtwo": "linux"
+        "mewtwo": "linux",
+        "samus": "linux",
+        "snake": "linux",
+        "bowser.klawe.org": "linux",
+        "ep3-kcrm-01": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github"
+    ],
 
     // autoclose tag
     "auto-close-tag.SublimeText3Mode": true,
@@ -571,6 +594,10 @@
     "hexeditor.showDecodedText": false,
     "hexeditor.defaultEndianness": "little",
     "hexeditor.inspectorType": "aside",
+
+
+    // excalidraw
+    "excalidraw.theme": "dark",
 
 
 
@@ -661,6 +688,23 @@
             "editorSuggestWidget.selectedForeground":"#ffffff",
             "editorSuggestWidget.focusHighlightForeground":"#d82424"
         },
+        "[GooeyVSCTheme]": {
+            "scrollbarSlider.hoverBackground":"#464d709a",
+            "scrollbarSlider.background":"#31364e9a",
+        },
+        "[White Oak Chillhop Dark]": {
+            "quickInputList.focusBackground":"#7b7b7b0e",
+            "editor.lineHighlightBackground": "#6b2c3050",
+            "quickInputList.focusForeground":"#52a4ab",
+        },
+        "[Overcast - Dark Brown Theme]": {
+            "scrollbarSlider.hoverBackground": "#faf4f040",
+            "scrollbarSlider.activeBackground": "#d2a67b30",
+        },
+        "[Xizen Theme]": {
+            "editor.lineHighlightBackground": "#80cbc440",
+            "scrollbarSlider.activeBackground": "#80cbc420",
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -684,9 +728,40 @@
                     }
                 },
             ]
+        },
+        "[dario97a Custom Color]": {
+            "comments":"#608b4e",
+            "textMateRules": [
+                {
+                    "scope": "comment.line.double-slash",
+                    "settings": {
+                        "foreground": "#608b4e"
+                    }
+                },
+            ]
+        },
+        "[Xizen Theme]": {
+            "comments":"#608b4e",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment.line.number-sign",
+                        "comment.line.double-slash",
+                        "comment.block",
+                        "comment.block.documentation",
+                        "string.quoted.multi.python",
+                        "string.quoted.docstring",
+                        "string.quoted.multi.python punctuation.definition.string.begin",
+                        "string.quoted.multi.python punctuation.definition.string.end"
+                    ],
+                    "settings": {
+                        "foreground": "#608b4e"
+                    }
+                },
+            ]
         }
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Rosé Pine",
+    "workbench.colorTheme": "Rubecula"
 }
