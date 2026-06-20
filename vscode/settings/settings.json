@@ -78,6 +78,9 @@
     "scm.repositories.selectionMode": "single",
     "explorer.sortOrder": "default",
     "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "workbench.editor.useModal": "some",
 
 
 
@@ -157,7 +160,7 @@
         "editor.tabSize": 2
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "explorer.autoReveal": false,
+    "explorer.autoReveal": "focusNoScroll",
 
     // html
     "html.autoClosingTags": true,
@@ -468,6 +471,7 @@
     "git-graph.repository.onLoad.scrollToHead": true,
     "git-graph.retainContextWhenHidden": true,
     "git-graph.repository.commits.loadMore": 500,
+    "git-graph.showStatusBarItem": false,
 
 
 
@@ -766,5 +770,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Rubecula"
+    "workbench.colorTheme": "Based Ayu Dark"
 }
