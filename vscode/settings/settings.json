@@ -17,7 +17,7 @@
     },
     "editor.renderLineHighlight": "line",
     "update.mode": "none",
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "off",
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "extensions.ignoreRecommendations": true,
@@ -770,5 +770,5 @@
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Based Ayu Dark"
+    "workbench.colorTheme": "Smooth (dark)"
 }
