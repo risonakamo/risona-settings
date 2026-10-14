@@ -81,6 +81,11 @@
     "editor.inlineSuggest.enabled": false,
     "editor.accessibilitySupport": "off",
     "workbench.editor.useModal": "some",
+    "python.terminal.activateEnvironment": false,
+    "chat.titleBar.signIn.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "explorer.autoReveal": false,
 
 
 
@@ -160,7 +165,6 @@
         "editor.tabSize": 2
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "explorer.autoReveal": "focusNoScroll",
 
     // html
     "html.autoClosingTags": true,
@@ -229,7 +233,8 @@
 
     // other files
     "files.associations": {
-        "**/*.txt":"coffeescript"
+        "**/*.txt":"coffeescript",
+        "**/*.afsim":"coffeescript"
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
@@ -534,7 +539,8 @@
         "samus": "linux",
         "snake": "linux",
         "bowser.klawe.org": "linux",
-        "ep3-kcrm-01": "linux"
+        "ep3-kcrm-01": "linux",
+        "sephiroth": "linux"
     },
     // "remote.SSH.configFile": "C:\\Users\\ktkm\\.ssh\\config2",
     "remote.defaultExtensionsIfInstalledLocally": [
@@ -604,7 +610,7 @@
 
 
     // excalidraw
-    "excalidraw.theme": "dark",
+    "excalidraw.theme": "light",
 
 
 
@@ -712,6 +718,23 @@
             "editor.lineHighlightBackground": "#80cbc440",
             "scrollbarSlider.activeBackground": "#80cbc420",
         },
+        "[BTS Borahae Dark]": {
+            "icon.foreground":"default",
+            "list.activeSelectionBackground": "#d1a96c",
+            "scrollbarSlider.activeBackground": "#d1a96caa",
+            "scrollbarSlider.hoverBackground": "#d1a96ce1",
+            "editorSuggestWidget.selectedBackground": "#247db7",
+            "tab.hoverBackground": "#ff86d551",
+            "list.hoverBackground": "#ff86d57f",
+            "terminalCursor.foreground": "#cfcfcf",
+            "terminalCursor.background": "#150f21",
+        },
+
+        "[Synth Wave '84 Python]": {
+            "scrollbarSlider.activeBackground": "#f6019d99",
+            "scrollbarSlider.background": "#7a004566",
+            "scrollbarSlider.hoverBackground": "#d4007899",
+        },
 
         // ---- GLOBALS ----
         // brackets
@@ -766,9 +789,29 @@
                     }
                 },
             ]
+        },
+        "[BTS Borahae Dark]": {
+            "comments":"#608b4e",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment.line.number-sign",
+                        "comment.line.double-slash",
+                        "comment.block",
+                        "comment.block.documentation",
+                        "string.quoted.multi.python",
+                        "string.quoted.docstring",
+                        "string.quoted.multi.python punctuation.definition.string.begin",
+                        "string.quoted.multi.python punctuation.definition.string.end"
+                    ],
+                    "settings": {
+                        "foreground": "#608b4e"
+                    }
+                },
+            ]
         }
     },
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Smooth (dark)"
+    "workbench.colorTheme": "Synth Wave '84 Python",
 }
