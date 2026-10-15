@@ -9,6 +9,6 @@ cp -r %appdata%\Code\User\snippets .
 
 @REM copy in settings
 cd %appdata%\Code\User
-cp settings.json keybindings.json %settingsDir%
+copy settings.json keybindings.json %settingsDir%
 
 cd %HERE%

@@ -7,6 +7,6 @@ cd %HERE%
 cp -r snippets %appdata%\Code\User
 
 cd %HERE%\settings
-cp *.json %appdata%\Code\User
+copy *.json %appdata%\Code\User
 
 cd %HERE%
